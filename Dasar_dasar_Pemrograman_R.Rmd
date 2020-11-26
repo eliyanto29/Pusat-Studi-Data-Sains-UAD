@@ -1,0 +1,311 @@
+---
+title: "Dasar-dasar Pemrograman R"
+author: "Joko Eliyanto"
+date: "11/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+![](C:/Users/Joko/Pictures/PSDS5.png)
+
+
+## Variabel
+
+Variabel adalah tempat untuk menyimpan data, untuk menuliskan sebuah variabel, berikut ketentuan-ketentuan penamaan variabel dalam R :
+1. Variabel berupa kombinasi huruf, angka, titik dan garis bawah (underscore).
+2. Harus diawali dengan huruf atau titik, jika berawal dengan titik, selanjutnya tidak bisa menggunakan angka.
+3. Syntax R tidak dapat digunakan sebagai nama variabel.
+4. Huruf besar dan kecil berbeda (case sensitive)
+
+Variabel memiliki tipe data tetapi tidak perlu secara eksplisit dituliskan tipe datanya.
+
+Deklarasi variabel pada R cukup dengan memasukkan nilai kedalam variabelnya menggunakan operator = atau <-, operator <- lebih umum digunakan karena merupakan operator asli R, komentar pada R bisa menggunakan #, contoh :
+
+```{r}
+s <- "Assalamualaikum"
+s1 <- 'Assalamualaikum w.w.'
+s2 <- "Assalamualaikum warahmatullahi wabarakatuh"
+print(s) #Hasil : "Assalamualaikum"
+```
+
+## Tipe Data Variabel
+
+Untuk mengecek tipe data dan kelasnya suatu variable bisa menggunakan typeof() dan class(), contoh diatas typeof(a) akan menghasilkan “double” dan class(a) akan menghasilkan “numeric”, tipe lainnya untuk numeric : “integer” dan “complex”, secara default bilangan di R adalah double.
+
+```{r}
+###Numerik
+#Note: Bilangan Bulat/Integer
+x=2L
+typeof(x)
+
+#Note: Bilangan Real/Double
+y=2
+typeof(y)
+
+#Note: Bilangan Kompleks/Complex
+# z=a+bi,  i=akar(-1)
+
+z=2+3i
+typeof(z)
+
+### Karakter
+#Note: Karakter/Huruf/String
+#pakai tanda petik ("")
+a="Nama"
+typeof(a)
+
+#Note: Logical/Nilai Kebenaran Proposisi
+b=FALSE
+typeof(b)
+
+```
+
+## Struktur Data Pada R
+
+### Vektor
+Vector adalah data array yang dapat menyimpan banyak data dalam 1 variabel saja dan diakses menggunakan indeks, berikut inisialisasi vector di R, menggunakan fungsi bernama c(), data yang dimasukkan harus seragam, jika tidak akan dikonversi menjadi karakter agar seragam).
+
+```{r}
+#Inisialisasi Vektor
+x <- c(1, 5, 4, 9, 0)
+y <- c(1, 5.4, TRUE, "hello")
+print(y) #Hasil "5.4", Indeks pada R dimulai dari angka 1 bukan 0
+
+#Operasi Vektor
+x <- c(1, 2, 3, 4, 5)
+y <- c(1, 1, 1, 1, 1)
+print(x + y) #Tiap elemen vector akan ditambahkan
+
+#Mengakses isi Vektor
+x <- c(1,2,3,4,5,6)
+x <- 1:6 #sama dengan diatas, cara ini lebih cepat untuk data seri
+y <- 2:-2 #membuat seri nilai menurun
+z <- c("satu"=2, "dua"=4, "tiga"=6)
+print(y)
+
+print(y[c(1,2)]) #hanya menampilkan index pertama dan kedua dari y
+
+print(y[y<0]) #filter y, tampilkan nilai dibawah 0
+
+print(z[c("dua")]) #menampilkan index dengan string
+
+#Memodifikasi anggota vektor
+x[2] <- 5 #memodifikasi index kedua dengan nilai 5
+x <- x[1:3] #memotong index jadi hanya 3
+print(x)
+
+```
+
+Operator Untuk Vektor
+
+```
+Aritmatik         : +,–,*,/,(,)
+Pangkat           : ^
+Modulus           : %%
+Pembagian integer : %/%
+Komparasi         : <,>,<=,>=,==,!=
+Logikal           : ! (NOT),& (AND untuk vector),&& (AND),
+                    | (OR untuk vector),|| (OR)
+Set variabel      : <-, <<- (untuk variabel global), =,->, 
+                    ->>(untuk variabel global)
+```
+
+
+### Matriks
+Jika Vector menyimpan nilai 1 dimensi maka Matrix dapat menyimpan nilai 2 dimensi.
+
+```{r}
+a <- matrix(1:9, nrow = 3, ncol = 3) #diisi baris dulu
+print('Matriks A')
+print(a)
+
+b <- matrix(1:9, nrow = 3, ncol = 3, byrow = TRUE) #diisi kolom dulu
+print('Matriks B')
+print(b)
+
+colnames(a) <- c("K1","K2","K3") #memberi nama index kolom
+rownames(a) <- c("B1","B2","B3") #memberi nama index baris
+print (a)
+
+#Membuat Matrix dengan menggabungkan dari 2 Vector
+C<-cbind(c(1,2,3),c(4,5,6)) #digunakan untuk menggabungkan kolom
+print("Matriks C")
+print(C)
+
+D<-rbind(c(1,2,3),c(4,5,6)) #digunakan untuk menggabungkan baris
+print("Matriks D")
+print(D)
+
+#Mengakses Matrix
+E <- matrix(1:9, nrow = 3, ncol = 3) #diisi baris dulu
+print("Matriks E")
+print(E)
+print(a[2,3]) #menampilkan baris ke-2 kolom ke-3
+
+print(a[2,]) #menampilkan semua baris ke-2
+
+print(a[,3]) #menampilkan semua baris ke-3
+
+print(a[c(1,2),c(2,3)]) #menampilkan potongan matrix dari titik kiri atas sampai kanan bawah
+
+print(a[-1,]) #menampilkan semua kecuali baris ke-1
+
+print(t(a)) #menampilkan transpose matrix
+
+```
+
+## List
+Jika Vector hanya dapat menyimpan data seragam maka List dapat menyimpan data yang tidak seragam / berbeda tipe data.
+```{r}
+x <- list(5.5, TRUE, 1:5)
+print(x)
+
+x <- list("a" = 5.5, "b" = TRUE, "c" = 1:5)
+str(x) #str dipakai untuk melihat stuktur dari jenis data structure
+
+print(x[1]) #menampilkan list index pertama
+
+print(x[[1]]) #menampilkan value dari list index pertama
+```
+
+## Data Frame
+Data Frame adalah stuktur data terpenting karena bentuknya seperti tabel yang memiliki kolom dan baris, mirip matrix, bedanya matrix menyimpan data seragam, sementara Data Frame dapat menyimpan data dengan berbagai tipe data seperti tabel pada Database. Kebanyakan library R menggunakan Data Frame sebagai parameter datanya.
+
+```{r}
+#Membuat Data Frame
+df <- data.frame("ID" = c(1,2,3),
+                 "Nama" = c("Budi", "Bambang", "Agus"),
+                 "Umur" = c(21,28,30),
+                 "Tanggal.Lahir" = c("1997–02–05",
+                                   "1990–07–23","1988–12–13")
+                )
+print(df)
+```
+Mengakses variabel dalam dataframe
+
+```{r}
+print(df["Nama"]) #menampilkan kolom nama, sama dengan print(df[2])
+
+
+print(df$Nama) #menampilkan kolom nama dan diubah menjadi vector
+
+
+print(df[2,2:3]) #menampilkan kolom nama dan umur Agus (baris 2)
+```
+
+Memodifikasi Data Frame
+```{r}
+df <- data.frame("ID" = c(1,2,3),
+                 "Nama" = c("Budi", "Bambang", "Agus"),
+                 "Umur" = c(21,28,30),
+                 "Tanggal.Lahir" = c("1997–02–05",
+                                   "1990–07–23","1988–12–13")
+                )
+print(df)
+df[2,"Nama"] <- "Mahmud"
+print(df)
+
+Tempat.Lahir <- c("Jakarta","Sorong","Bandung")
+df <- cbind(df, Tempat.Lahir)
+print(df)
+
+df["Tempat.Lahir"] <- NULL #hapus kolom
+df <- rbind(df,list(4,"Ani",19,"1999-10-30")) #tambah baris
+print(df)
+
+df <- df[1:3,] #menghapus baris keempat
+```
+
+##Factor
+Factor adalah struktur data yang menyimpan kategori dari vector bertipe karakter, misalnya terdapat vector berisi c(“Laki-laki”,”Perempuan”,”Perempuan”,”Laki-Laki”) maka Factornya adalah “Laki-laki” dan “Perempuan” saja, hanya 2 kategori.
+```{r}
+#Membuat factor
+x <- factor(c("Laki-laki","Perempuan","Laki-laki","Perempuan"), 
+            levels <- c("Laki-laki","Perempuan"))
+print(x)
+
+levels(x) <- c(levels(x), "Tidak jelas") #untuk menambah level baru
+print(x)
+```
+
+#Percabangan
+
+##If, else if, dan else
+```{r}
+x <- 0
+if (x < 0) {
+print("Negatif")
+} else if (x > 0) {
+print("Positif")
+} else
+print("Nol")
+```
+
+##Ifelse
+```{r}
+a <- c(6,3,2,9)
+ifelse(a %% 2 == 0, "genap", "ganjil")
+```
+
+
+##Switch
+```{r}
+a <- 2
+switch(a,"merah", "hijau", "biru")
+```
+
+
+#Perulangan (Loop)
+##For
+```{r}
+x <- c(2,5,3,9,8,11,6)
+count <- 0
+for (val in x) {
+   if (val %% 2 == 0) count = count + 1
+}
+print(count)
+```
+
+##While
+```{r}
+i <- 1
+while (i < 4) {
+   print(i)
+   i = i + 1
+}
+```
+
+##Repeat
+```{r}
+x <- 1
+repeat {
+   print(x)
+   x = x + 1
+   if (x == 3) {
+      break
+   }
+}
+```
+
+didalam loop bisa menggunakan syntax break untuk keluar dari loop dan next lanjut ke loop berikutnya.
+
+#Function
+Fungsi atau function merupakan potongan code yang diberikan nama dan dapat mengembalikan nilai tertentu berdasarkan parameter yang dimasukkan, digunakan apabila potongan code tersebut digunakan berulang-ulang.
+
+```{r}
+pangkat <- function (x, y) {
+   hasil <- x^y
+   return(hasil)
+}
+z <- pangkat(2,3)
+print(paste("Pangkat 3 dari 2 adalah : ",z))
+```
+
+
+
+
+
