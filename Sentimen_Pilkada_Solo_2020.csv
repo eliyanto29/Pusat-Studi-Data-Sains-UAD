@@ -1,0 +1,382 @@
+,tanggal,clean_text,Kandidat,Minggu ke-,positive,negative,label,score,sentimen,Sentimen_kode,sentimem,minggu pertama
+0,10/2/2020 9:37,baca bom blog,Bagyo-Supardjo,1,0,0.333333333,negative,-0.333333333,0,Negatif,,TRUE
+1,10/2/2020 4:08,pria tampil tayang tv swasta kemarin pasang teguh prakosa tarung,Bagyo-Supardjo,1,0.2,0,positive,0.2,2,Positif,,TRUE
+2,9/30/2020 14:36,matanajwa matanajwaberebuttakhtaditengahwabah transwarga solo pilih bagyo wahyono fx,Bagyo-Supardjo,1,0.125,0.375,negative,-0.25,0,Negatif,,TRUE
+3,9/29/2020 14:55,metode kampanye online kampanye door to door cenderung fokus paslon bajo,Bagyo-Supardjo,1,0,0.090909091,negative,-0.090909091,0,Negatif,,TRUE
+4,9/29/2020 14:49,metode kampanye online kampanye door to door cenderung fokus paslon,Bagyo-Supardjo,1,0,0.1,negative,-0.1,0,Negatif,,TRUE
+5,9/29/2020 10:16,masyarakat kota solo anti politik dinasti sepakat dukung dannangkat bagyo wahyono supardjo sbg wali kota sol,Bagyo-Supardjo,1,0.1875,0.0625,positive,0.125,1,Netral,1,TRUE
+6,9/27/2020 11:37,kampanye rumah warga rawan target ruma,Bagyo-Supardjo,1,0,0.166666667,negative,-0.166666667,0,Negatif,,TRUE
+7,9/26/2020 15:54,bunyi deklarasi komitmen pasang calon gibranteguh bagyosupardjo pilwal,Bagyo-Supardjo,1,0.25,0.125,positive,0.125,0,Negatif,,TRUE
+8,9/26/2020 13:22,pasang calon bagyo wahyonofx supardjo alias bajo sulap solo kota megapolitan,Bagyo-Supardjo,1,0.090909091,0.090909091,positive,0,1,Netral,1,TRUE
+9,9/26/2020 9:11,pilkada solo gibranteguh bagyosupardjo komitmen kampanye taat protokol sehat taucepattanpabatas,Bagyo-Supardjo,1,0.6,0.1,positive,0.5,0,Negatif,,TRUE
+10,10/2/2020 22:49,populer nusantara konlik kapolres blitar kasat sabhara solo sandiaga ipers,Gibran-Teguh,1,0.1,0,positive,0.1,0,Negatif,,TRUE
+11,10/2/2020 22:16,sandiaga uno kampanye pasang calon wali kota wakil wali kota solo gibran rakabuming rakateguh prakos,Gibran-Teguh,1,0.266666667,0.066666667,positive,0.2,1,Netral,1,TRUE
+12,10/2/2020 21:51,sandiaga uno kampanye gibranteguh pilkada solo lobi jokowi,Gibran-Teguh,1,0.125,0,positive,0.125,0,Negatif,,TRUE
+13,10/2/2020 20:43,ninggal tatukowe tak sayangsayang saiki ngilang tresnamu karo kuwi mung kias kowe tak gadhang,Gibran-Teguh,1,0.142857143,0.142857143,positive,0,0,Negatif,,TRUE
+14,10/2/2020 19:31,sandi uno kampanye gibranteguh pilkada solo lobi jokowiperjuangan bapak martabak anak,Gibran-Teguh,1,0.090909091,0.181818182,negative,-0.090909091,0,Negatif,,TRUE
+15,10/2/2020 13:21,tidur ah sakit badan nihh,Gibran-Teguh,1,0,0.4,negative,-0.4,0,Negatif,,TRUE
+16,10/2/2020 13:05,nyeri awak,Gibran-Teguh,1,0,0.5,negative,-0.5,0,Negatif,,TRUE
+17,10/2/2020 13:05,ngantukkkk,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+18,10/2/2020 12:46,sandi uno kampanye gibranteguh pilkada solo lobi jokowiperjuangan bapak mart,Gibran-Teguh,1,0.1,0.2,negative,-0.1,0,Negatif,,TRUE
+19,10/2/2020 10:39,sandiaga uno nama besar jurkam paslon gibranteguh solo pilkada,Gibran-Teguh,1,0.222222222,0,positive,0.222222222,0,Negatif,,TRUE
+20,10/2/2020 10:18,respons kabar sandiaga jurkam gibran rancang kampanye daring wakil ketua dewan bina partai gerindra,Gibran-Teguh,1,0,0.071428571,negative,-0.071428571,1,Netral,1,TRUE
+21,10/2/2020 9:33,sandiaga uno kampanye gibranteguh pilkada solo lobi jokowi borong medan solo htt,Gibran-Teguh,1,0.083333333,0.083333333,positive,0,0,Negatif,,TRUE
+22,10/2/2020 8:34,hoammmmmm,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+23,10/2/2020 8:32,gibran teguh pilkada sesuai jadwal demokratis aman covid,Gibran-Teguh,1,0.375,0,positive,0.375,2,Positif,,TRUE
+24,10/2/2020 8:31,solo ber gibran teguh pilih,Gibran-Teguh,1,0.2,0.2,positive,0,2,Positif,,TRUE
+25,10/2/2020 8:31,gibran teguh nomor urut pilkada solo pa,Gibran-Teguh,1,0.142857143,0,positive,0.142857143,2,Positif,,TRUE
+26,10/2/2020 8:29,gibran teguh komitmen jaga protokol sehat kampanye,Gibran-Teguh,1,0.571428571,0,positive,0.571428571,2,Positif,,TRUE
+27,10/2/2020 8:29,gibran teguh dukung pilkada aman secret clean pt victoria care bantu hand sanitizer,Gibran-Teguh,1,0.153846154,0.076923077,positive,0.076923077,2,Positif,,TRUE
+28,10/2/2020 7:42,capek euy,Gibran-Teguh,1,0,0.5,negative,-0.5,0,Negatif,,TRUE
+29,10/2/2020 7:30,sandiaga uno digadanggadang jurkam paslon gibranteguh pilkada solo sandiaga jurkam ta,Gibran-Teguh,1,0.090909091,0,positive,0.090909091,0,Negatif,,TRUE
+30,10/2/2020 6:45,mantan wakil gubernur dki jakarta sandiaga uno kampanye pasang calon gibran rakabuming rakate,Gibran-Teguh,1,0.153846154,0.076923077,positive,0.076923077,1,Netral,1,TRUE
+31,10/2/2020 6:44,gk butuh jurkam pusat spt warga solo berdi,Gibran-Teguh,1,0.125,0.125,positive,0,0,Negatif,,TRUE
+32,10/2/2020 6:37,wakil ketua dpp gerindra kampanye pasang calon wali kota wakil wali kota solo gi,Gibran-Teguh,1,0,0.071428571,negative,-0.071428571,1,Netral,1,TRUE
+33,10/2/2020 6:17,wakil ketua dpp gerindra kampanye pasang calon wali kota wakil wali kota so,Gibran-Teguh,1,0,0.076923077,negative,-0.076923077,1,Netral,1,TRUE
+34,10/2/2020 6:02,asyiikkk,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+35,10/2/2020 6:01,laparrr,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+37,10/2/2020 5:02,mantap sandiaga uno jurkam gibranteguh pilkada solo,Gibran-Teguh,1,0.142857143,0,positive,0.142857143,0,Negatif,,TRUE
+38,10/2/2020 5:02,ardianto kaji deklarasi tim menang paslon gibranteguh,Gibran-Teguh,1,0.285714286,0,positive,0.285714286,0,Negatif,,TRUE
+39,10/2/2020 5:02,mantan wakil gubernur dki jakarta mengkampanyekan pasang gibranteguh virtual,Gibran-Teguh,1,0.111111111,0,positive,0.111111111,0,Negatif,,TRUE
+40,10/2/2020 5:02,model kampanye sandiaga paslon gibranteguh gibran sandi,Gibran-Teguh,1,0.142857143,0,positive,0.142857143,0,Negatif,,TRUE
+41,10/2/2020 5:02,faktor sandiaga prabowo subianto ketua dpp partai gerindra presiden jokowi s,Gibran-Teguh,1,0.090909091,0.090909091,positive,0,0,Negatif,,TRUE
+42,10/2/2020 5:02,kabar sandiaga kampanye pasang gibran teguh ketua dpc partai gerindra solo ardianto kuswinarno,Gibran-Teguh,1,0.076923077,0.076923077,positive,0,2,Positif,,TRUE
+43,10/2/2020 4:54,wakil ketua dewan bina partai gerindra sandiaga salahudin uno kampanye jurkam pasang,Gibran-Teguh,1,0,0.166666667,negative,-0.166666667,1,Netral,1,TRUE
+44,10/2/2020 4:44,orang amerika mikir biden menang trump kalah anaknya biden nyalon,Gibran-Teguh,1,0.1,0.1,positive,0,0,Negatif,,TRUE
+45,10/2/2020 3:30,selamat bang moga solo bebas kaum intoleransi,Gibran-Teguh,1,0.285714286,0.142857143,positive,0.142857143,0,Negatif,,TRUE
+47,10/2/2020 2:04,politis partai gerindra sandiaga solahuddin uno kampanye jurkam pasang calon wali kota w,Gibran-Teguh,1,0,0.153846154,negative,-0.153846154,1,Netral,1,TRUE
+48,10/2/2020 1:53,sandiaga uno kampanye pasang calon wali kota wakil wali kota solo gibran rakabuming rakateguh,Gibran-Teguh,1,0.214285714,0.071428571,positive,0.142857143,1,Netral,1,TRUE
+49,10/2/2020 1:39,pilwalkot solo sandiaga uno terjun jurkam gibranteguh,Gibran-Teguh,1,0.142857143,0,positive,0.142857143,0,Negatif,,TRUE
+50,10/2/2020 1:03,oh,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+51,10/1/2020 23:35,sandiaga jurkam gibran solo bobby medan faktor sandiaga prabowo,Gibran-Teguh,1,0,0.111111111,negative,-0.111111111,0,Negatif,,TRUE
+52,10/1/2020 23:02,sandiagauno prabowo gerindra pdiperjuangan,Gibran-Teguh,1,0,0.25,negative,-0.25,0,Negatif,,TRUE
+53,10/1/2020 23:01,politis partai gerindra sandiaga solahuddin uno jukam pasang calon wali kota wakil wali,Gibran-Teguh,1,0,0.153846154,negative,-0.153846154,1,Netral,1,TRUE
+54,10/1/2020 22:34,apbd kota solo bahas teguh masamasa sabar an,Gibran-Teguh,1,0.25,0.25,positive,0,2,Positif,,TRUE
+55,10/1/2020 21:00,komitmen taat protokol sehat dengung warga program prioritas tegu,Gibran-Teguh,1,0.555555556,0,positive,0.555555556,0,Negatif,,TRUE
+56,10/1/2020 17:49,sandiaga uno kampanye gibranteguh pilkada solo lobi jokowi borong medan sol,Gibran-Teguh,1,0.090909091,0.090909091,positive,0,0,Negatif,,TRUE
+57,10/1/2020 16:27,gibran nggak manuver kirakira tum enggak pdip ng,Gibran-Teguh,1,0.125,0,positive,0.125,2,Positif,,TRUE
+58,10/1/2020 16:27,lobilobinya politik tingkat tum prabowo subianto jokowi,Gibran-Teguh,1,0.142857143,0,positive,0.142857143,0,Negatif,,TRUE
+59,10/1/2020 15:42,wkwkw jasa terawang gin dah gibranteguh menang kalo kalah kalem leg wkwkkw,Gibran-Teguh,1,0.166666667,0.166666667,positive,0,0,Negatif,,TRUE
+60,10/1/2020 8:34,politis partai gerindra sandiaga solahuddin uno jukam pasang calon wali kota wakil wali kota sol,Gibran-Teguh,1,0,0.133333333,negative,-0.133333333,1,Netral,1,TRUE
+61,10/1/2020 8:01,kabar papa online sandiaga uno jurkam gibranteguh pilkada solo klik baca,Gibran-Teguh,1,0.090909091,0.090909091,positive,0,0,Negatif,,TRUE
+62,10/1/2020 7:21,gotong royong lawan covid gibran teguh,Gibran-Teguh,1,0.166666667,0.166666667,positive,0,2,Positif,,TRUE
+63,10/1/2020 6:28,gibran genap teguh doa putra jokowi pilih wali kota bangun solo,Gibran-Teguh,1,0.181818182,0.090909091,positive,0.090909091,1,Netral,1,TRUE
+64,10/1/2020 5:09,apbd kota solo bahas teguh masamasa sabar angga,Gibran-Teguh,1,0.25,0.25,positive,0,2,Positif,,TRUE
+65,10/1/2020 4:32,urus dpd psi solo pimpin langsung bro antonius yoga fogging mukim wargapada me,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+66,9/30/2020 23:56,gibranteguh blusukan masyarakat rangka bantu masyarakat kena dampak pandemi,Gibran-Teguh,1,0.333333333,0,positive,0.333333333,0,Negatif,,TRUE
+67,9/30/2020 15:20,najwa raguk gibran n su,Gibran-Teguh,1,0,0.2,negative,-0.2,2,Positif,,TRUE
+68,9/30/2020 14:28,komitmen taat protokol sehat dengung warga program prioritas teguh a,Gibran-Teguh,1,0.6,0,positive,0.6,2,Positif,,TRUE
+69,9/30/2020 14:27,paslon gibranteguh blusukan online lurah solo gibran a,Gibran-Teguh,1,0.125,0,positive,0.125,0,Negatif,,TRUE
+70,9/30/2020 13:56,putra presiden joko widodo gibran rakabuming raka pasang teguh prakosa pilwalkot surakarta nasiona,Gibran-Teguh,1,0.384615385,0,positive,0.384615385,2,Positif,,TRUE
+71,9/30/2020 13:50,putra presiden joko widodo gibran rakabuming raka pasang teguh prakosa pilwalkot surakarta,Gibran-Teguh,1,0.416666667,0,positive,0.416666667,2,Positif,,TRUE
+72,9/30/2020 13:40,apbd kota solo bahas teguh masamasa sabar,Gibran-Teguh,1,0.285714286,0.285714286,positive,0,2,Positif,,TRUE
+73,9/30/2020 13:15,komitmen taat protokol sehat dengung warga program prioritas,Gibran-Teguh,1,0.625,0,positive,0.625,0,Negatif,,TRUE
+74,9/30/2020 11:12,solo gibran teguh pilihankusolohebat sobatsolohebat solomelompatlebihjauh lompatananakmudauntuksolo,Gibran-Teguh,1,0.714285714,0.428571429,positive,0.285714286,2,Positif,,TRUE
+75,9/30/2020 11:07,bajo blusukan langsung tokoh agama gibranteguh pakai virtualbox,Gibran-Teguh,1,0.25,0,positive,0.25,0,Negatif,,TRUE
+76,9/30/2020 8:10,identitas tugas masyarakat solo pasang gibran amp teguh bawa solo,Gibran-Teguh,1,0.2,0,positive,0.2,2,Positif,,TRUE
+77,9/30/2020 7:53,identitas tugas masyarakat solo pasang gibran amp teguh prakasa memb,Gibran-Teguh,1,0.3,0,positive,0.3,2,Positif,,TRUE
+78,9/30/2020 7:40,amunisi pkpi dukung gibran teguh pilkada solo,Gibran-Teguh,1,0.142857143,0.142857143,positive,0,2,Positif,,TRUE
+79,9/30/2020 5:43,dana kampanye gibranteguh amp bajo masingmasing batas rp m,Gibran-Teguh,1,0.111111111,0.222222222,negative,-0.111111111,0,Negatif,,TRUE
+80,9/30/2020 5:36,gibranteguh for solo gibranforsolo,Gibran-Teguh,1,0.25,0,positive,0.25,0,Negatif,,TRUE
+81,9/30/2020 4:50,pasang gibranteguh bajo milik gaet warga kota solo simak gaya kampanye m,Gibran-Teguh,1,0.083333333,0,positive,0.083333333,0,Negatif,,TRUE
+82,9/30/2020 4:40,gibran mohon maaf fans wkwkwkgibranteguh,Gibran-Teguh,1,0.4,0,positive,0.4,2,Positif,,TRUE
+83,9/29/2020 17:25,urus dpd psi solo pimpin langsung bro antonius yoga fogging mukim wargapada y,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+84,9/29/2020 13:24,pilkada solo sandiaga uno kampanye gibranteguh,Gibran-Teguh,1,0.166666667,0,positive,0.166666667,0,Negatif,,TRUE
+85,9/29/2020 13:23,kampanyepilkadavirtualkampanye perdana gibranteguh blusukan daring virtual boxkampanye gibran blusuka,Gibran-Teguh,1,0.111111111,0,positive,0.111111111,0,Negatif,,TRUE
+86,9/29/2020 12:34,rapat baris menang gibranteguh,Gibran-Teguh,1,0.5,0,positive,0.5,0,Negatif,,TRUE
+87,9/29/2020 12:11,ranting pdi juang sekota surakarta menang gibranteguh taat patuh protokol keseha,Gibran-Teguh,1,0.545454545,0.090909091,positive,0.454545455,0,Negatif,,TRUE
+88,9/29/2020 9:03,ijin bal rapopo tahan sik sing ijin dodol tetep metu seko polri bekingane gibran teguh og,Gibran-Teguh,1,0.0625,0,positive,0.0625,2,Positif,,TRUE
+89,9/29/2020 8:59,pilwakotsolo kampanye gibranteguh tugas,Gibran-Teguh,1,0.25,0,positive,0.25,0,Negatif,,TRUE
+90,9/29/2020 7:56,pilwakot surakarta pilkada ramai nomor berita bahas sosok gibran media menyor,Gibran-Teguh,1,0.090909091,0.181818182,negative,-0.090909091,2,Positif,,TRUE
+91,9/29/2020 7:15,paslon bajo gegaruk bidjie gegayaan luh pilkada kalo usul mending,Gibran-Teguh,1,0,0.1,negative,-0.1,0,Negatif,,TRUE
+92,9/29/2020 4:29,dana kampanye gibranteguh rp juta bajo rp pilkada,Gibran-Teguh,1,0.125,0,positive,0.125,0,Negatif,,TRUE
+93,9/29/2020 2:59,komisi pilih kpu solo jawa terima daftar akun media sosial medsos milik,Gibran-Teguh,1,0.25,0.166666667,positive,0.083333333,0,Negatif,,TRUE
+94,9/29/2020 2:10,megawati turun gunung jurkam gibranteguh kalah harga pdipjokowi hancur,Gibran-Teguh,1,0.111111111,0.222222222,negative,-0.111111111,0,Negatif,,TRUE
+95,9/29/2020 1:33,pilkada solo lawan gibranteguh dana kampanye pasang bajo rp,Gibran-Teguh,1,0.111111111,0.111111111,positive,0,0,Negatif,,TRUE
+96,9/29/2020 1:31,akh pegang teguh penggal kalimat khalil gibran wkwk,Gibran-Teguh,1,0.125,0,positive,0.125,2,Positif,,TRUE
+97,9/28/2020 22:50,warga solo antusias box virtual kampanye sedia paslon gibranteguh warga keluh kesah de,Gibran-Teguh,1,0.230769231,0,positive,0.230769231,0,Negatif,,TRUE
+98,9/28/2020 21:24,warga solo antusias box virtual kampanye sedia paslon gibranteguh warga kelu,Gibran-Teguh,1,0.181818182,0,positive,0.181818182,0,Negatif,,TRUE
+99,9/28/2020 21:18,ayo rapatkann baris utk menang gibran teguh dgn terap disiplin protok kesehatansa,Gibran-Teguh,1,0.416666667,0,positive,0.416666667,2,Positif,,TRUE
+100,9/28/2020 16:49,pilkada solo lawan gibranteguh dana kampanye pasang bajo rp kelurahannusukan panjipanji,Gibran-Teguh,1,0.090909091,0.090909091,positive,0,0,Negatif,,TRUE
+101,9/28/2020 16:49,berita kampanye virtual sdh paslon walikota calon wakil walikota solo nomor u,Gibran-Teguh,1,0,0.083333333,negative,-0.083333333,1,Netral,1,TRUE
+102,9/28/2020 16:47,selamat juang gibranteguhsemangat wujud surakarta kota budaya modern tangguh gesit kreatif da,Gibran-Teguh,1,0.583333333,0.083333333,positive,0.5,0,Negatif,,TRUE
+103,9/28/2020 16:06,optimis gibranteguh terap kampanye sehat bahaya tular virus korona menang pilkada,Gibran-Teguh,1,0.363636364,0.181818182,positive,0.181818182,0,Negatif,,TRUE
+104,9/28/2020 15:47,ranting pdi juang sekota surakarta menang gibranteguh taat patuh protokol,Gibran-Teguh,1,0.6,0.1,positive,0.5,0,Negatif,,TRUE
+105,9/28/2020 15:12,kampanye virtual gibran rakabumingteguh prakosa puji warga solo,Gibran-Teguh,1,0.375,0,positive,0.375,2,Positif,,TRUE
+106,9/28/2020 14:41,kampanye virtual gibran rakabumingteguh prakosa apresiasi warga,Gibran-Teguh,1,0.571428571,0,positive,0.571428571,2,Positif,,TRUE
+107,9/28/2020 14:41,kampanye virtual sdh pasang calon walikota calon wakil walikota solo nomor urut gibr,Gibran-Teguh,1,0,0.153846154,negative,-0.153846154,1,Netral,1,TRUE
+108,9/28/2020 14:28,selamat juang gibranteguhsemangat wujud surakarta kota budaya modern tangguh gesit kreat,Gibran-Teguh,1,0.545454545,0.090909091,positive,0.454545455,0,Negatif,,TRUE
+109,9/28/2020 14:14,optimis gibranteguh terap kampanye sehat bahaya tular virus korona menang pilka,Gibran-Teguh,1,0.363636364,0.181818182,positive,0.181818182,0,Negatif,,TRUE
+110,9/28/2020 10:19,kampanye virtual sdh paslon cawalkot solo dgn no urut kampany,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+111,9/28/2020 10:06,gibran sapa masyarakat virtual box keliling kampung teguh blusukan of,Gibran-Teguh,1,0.2,0.1,positive,0.1,2,Positif,,TRUE
+112,9/28/2020 9:58,kampanye gibran teguh kantong dana rp m bajo rp,Gibran-Teguh,1,0.111111111,0,positive,0.111111111,2,Positif,,TRUE
+113,9/28/2020 8:39,timbul kerumun massa pasang calon walikota solo gibran rakabuming raka teguh prakoso te,Gibran-Teguh,1,0.307692308,0.076923077,positive,0.230769231,1,Netral,1,TRUE
+114,9/28/2020 8:38,dpc pdip solo target menang gibranteguh kontribusi y,Gibran-Teguh,1,0.375,0,positive,0.375,0,Negatif,,TRUE
+115,9/28/2020 8:08,selamat juang gibran gibran teguh solo,Gibran-Teguh,1,0.333333333,0.166666667,positive,0.166666667,2,Positif,,TRUE
+116,9/28/2020 8:03,gibran teguh kampanye unik blusukan online hindar kumpul massa patuh protocol,Gibran-Teguh,1,0.363636364,0.090909091,positive,0.272727273,2,Positif,,TRUE
+117,9/28/2020 7:47,kampanye virtual pasang calon wali kota calon wakil wali kota solo nomor urut gibran rakab,Gibran-Teguh,1,0.066666667,0.133333333,negative,-0.066666667,1,Netral,1,TRUE
+118,9/28/2020 7:37,pilwakot surakarta pilkada ramai nomor berita bahas sosok gibran media,Gibran-Teguh,1,0.1,0.2,negative,-0.1,2,Positif,,TRUE
+119,9/28/2020 7:33,kampanye virtual sdh paslon gibranteguh pd kampanye bonorejo kel nusukan kec banjarsari solo jawa tenga,Gibran-Teguh,1,0.133333333,0,positive,0.133333333,0,Negatif,,TRUE
+120,9/28/2020 7:33,pandemi covid ubah mek temu online paslon lainkampanye vi,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+121,9/28/2020 7:01,gibran teguh generasi,Gibran-Teguh,1,0.333333333,0,positive,0.333333333,2,Positif,,TRUE
+122,9/28/2020 6:02,kampanye virtual sdh pasang calon walikota calon wakil walikota solo nomor urut,Gibran-Teguh,1,0,0.166666667,negative,-0.166666667,1,Netral,1,TRUE
+123,9/28/2020 5:26,pasang cawali cawawali solo nomor urut gibran rakabuming rakateguh prakosa langsung blusukan online,Gibran-Teguh,1,0.307692308,0,positive,0.307692308,1,Netral,1,TRUE
+124,9/28/2020 5:00,gibran rakabuming raka resmi calon wali kota solo pilih kepala daerah pilkada serentak b,Gibran-Teguh,1,0.142857143,0.142857143,positive,0,1,Netral,1,TRUE
+125,9/28/2020 4:57,kampanyepilkadavirtual sdh paslon walikota calon wakil walikota solo nomor urut gibran teguh pd h,Gibran-Teguh,1,0.071428571,0.071428571,positive,0,1,Netral,1,TRUE
+126,9/28/2020 4:50,berita kampanye virtual sdh paslon walikota calon wakil walikota solo,Gibran-Teguh,1,0,0.1,negative,-0.1,1,Netral,1,TRUE
+127,9/28/2020 4:40,ranting pdi juang sekota surakarta menang gibranteguh taat p,Gibran-Teguh,1,0.444444444,0,positive,0.444444444,0,Negatif,,TRUE
+128,9/28/2020 4:37,pasang cawali cawawali solo nomor urut gibran rakabuming rakateguh prakosa langsung blusukan,Gibran-Teguh,1,0.333333333,0,positive,0.333333333,1,Netral,1,TRUE
+129,9/28/2020 3:39,kampanyepilkadavirtualkampanye perdana gibranteguh blusukan daring virtual boxkampanye gibran bl,Gibran-Teguh,1,0.111111111,0,positive,0.111111111,0,Negatif,,TRUE
+130,9/28/2020 3:39,timbul kerumun massa pasang calon walikota solo gibran rakabuming raka teguh prakoso lak,Gibran-Teguh,1,0.307692308,0.076923077,positive,0.230769231,1,Netral,1,TRUE
+131,9/28/2020 3:39,kampanyepilkadavirtualkampanye virtual jg paslon gibran rakabuming rakateguh prakosa pilkada solo,Gibran-Teguh,1,0.4,0,positive,0.4,1,Netral,1,TRUE
+132,9/28/2020 3:37,kampanyepilkadavirtualketua tim menang gibranteguh putut gunawan tahap kampanye timnya a,Gibran-Teguh,1,0.2,0.1,positive,0.1,0,Negatif,,TRUE
+133,9/28/2020 3:27,kampanyepilkadavirtualkampanye virtual pasang calon wali kota calon wakil wali,Gibran-Teguh,1,0,0.222222222,negative,-0.222222222,1,Netral,1,TRUE
+134,9/28/2020 3:15,kampanyepilkadavirtualpasangan calon wali kota wakil wali kota solo gibran rakabuming rakateguh prakosa b,Gibran-Teguh,1,0.307692308,0.076923077,positive,0.230769231,1,Netral,1,TRUE
+135,9/28/2020 3:13,kampanye virtual pasang calon wali kota wakil walikota solo nomor urut gibr,Gibran-Teguh,1,0,0.083333333,negative,-0.083333333,1,Netral,1,TRUE
+136,9/28/2020 2:49,fakta kampanye digital gibran teguh pilkada solo warga keluh kesahnya,Gibran-Teguh,1,0.2,0,positive,0.2,2,Positif,,TRUE
+137,9/28/2020 2:07,nomor urut pasang calonkpu kota surakarta nomor urut pasang gibran rakabuming raka teguh pra,Gibran-Teguh,1,0.285714286,0.071428571,positive,0.214285714,1,Netral,1,TRUE
+138,9/28/2020 2:01,dana kampanye gibranteguh amp bajo masingmasing batas rp m,Gibran-Teguh,1,0.111111111,0.222222222,negative,-0.111111111,0,Negatif,,TRUE
+139,9/28/2020 1:44,dapar nomor urut gibranteguh kampanye blusukan onlinepdiperjuangangibranteguh ht,Gibran-Teguh,1,0.25,0.125,positive,0.125,0,Negatif,,TRUE
+140,9/28/2020 1:38,kampanye virtual pasang calon wali kota wakil walikota solo nomor urut,Gibran-Teguh,1,0,0.090909091,negative,-0.090909091,1,Netral,1,TRUE
+141,9/28/2020 1:29,kampanye virtual pasang calon wali kota calon wakil wali kota solo nomor urut gibran,Gibran-Teguh,1,0,0.142857143,negative,-0.142857143,1,Netral,1,TRUE
+142,9/28/2020 1:20,ruarrrr biasahhh tiati nek jaman covid megawati turun gunung jurkam gibranteguh,Gibran-Teguh,1,0.272727273,0.090909091,positive,0.181818182,0,Negatif,,TRUE
+143,9/28/2020 1:15,kampanye virtual sdh paslon cawalkot solo dgn no urut,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+144,9/28/2020 1:09,kampanye virtual sdh paslon gibranteguh pd kampanye bonorejo kel nusukan kec banjarsari solo,Gibran-Teguh,1,0.076923077,0,positive,0.076923077,0,Negatif,,TRUE
+145,9/28/2020 1:00,pandemi covid ubah mek temu online paslon lainkam,Gibran-Teguh,1,0,0,positive,0,0,Negatif,,TRUE
+146,9/28/2020 1:00,kampanyepilkadavirtual sdh paslon walikota calon wakil walikota solo nomor urut gibran teg,Gibran-Teguh,1,0,0.083333333,negative,-0.083333333,1,Netral,1,TRUE
+147,9/28/2020 1:00,kampanyepilkadavirtualpasangan calon wali kota wakil wali kota solo gibran rakabuming rakateguh prakosa le,Gibran-Teguh,1,0.307692308,0.076923077,positive,0.230769231,1,Netral,1,TRUE
+148,9/28/2020 1:00,kampanyepilkadavirtualkampanye virtual pasang calon wali kota calon wakil,Gibran-Teguh,1,0,0.25,negative,-0.25,1,Netral,1,TRUE
+149,9/28/2020 0:38,kampanyepilkadavirtualketua tim menang gibranteguh putut gunawan tahap kampanye tim,Gibran-Teguh,1,0.222222222,0.111111111,positive,0.111111111,0,Negatif,,TRUE
+150,9/28/2020 0:18,kampanyepilkadavirtualkampanye virtual jg paslon gibran rakabuming rakateguh prakosa pilkada s,Gibran-Teguh,1,0.4,0,positive,0.4,1,Netral,1,TRUE
+151,9/28/2020 0:06,gibranteguh vs bajo,Gibran-Teguh,1,0.333333333,0,positive,0.333333333,0,Negatif,,TRUE
+152,9/27/2020 14:29,pilkada solo lawan gibranteguh dana kampanye pasang bajo rp darisuara,Gibran-Teguh,1,0.1,0.2,negative,-0.1,0,Negatif,,TRUE
+153,9/27/2020 14:06,gibranteguh lapor dana kampanye pilkada solo rp juta bajo nol rupiah,Gibran-Teguh,1,0.090909091,0,positive,0.090909091,0,Negatif,,TRUE
+154,9/27/2020 13:14,gibranteguh laku kampanye virtual pakar komunikasi politik nilai efektif pikir rakyat tasikmalaya,Gibran-Teguh,1,0.333333333,0,positive,0.333333333,0,Negatif,,TRUE
+155,9/27/2020 12:23,laku kampanye virtual pakar komunikasi politik nilai efektif pikir rakyat ta,Gibran-Teguh,1,0.272727273,0,positive,0.272727273,0,Negatif,,TRUE
+156,9/27/2020 11:20,kampanye sehat kampanye cerdas good luck gibran teguh moga sukses,Gibran-Teguh,1,0.4,0,positive,0.4,2,Positif,,TRUE
+157,9/27/2020 11:06,kampanye onlie pasang gibranteguh prakosa cegah kerumun kumparannews,Gibran-Teguh,1,0.25,0,positive,0.25,0,Negatif,,TRUE
+158,9/27/2020 11:03,saluut gibran teguh bikin kampanye pandemi,Gibran-Teguh,1,0.166666667,0,positive,0.166666667,2,Positif,,TRUE
+159,9/27/2020 10:50,mantap paslon walikota solo gibran amp teguh nih blusukan virtual kampanye n,Gibran-Teguh,1,0.083333333,0.083333333,positive,0,2,Positif,,TRUE
+160,9/27/2020 10:47,keren nih monitor bukti paslon walikota solo gibran amp teguh kreatif b,Gibran-Teguh,1,0.25,0.166666667,positive,0.083333333,2,Positif,,TRUE
+161,9/27/2020 10:45,bener bener keren salut ama paslon gibran teguh,Gibran-Teguh,1,0.375,0.125,positive,0.25,2,Positif,,TRUE
+162,9/27/2020 10:44,inovasi kampanye pandemi kaya ide kreatif paslon gibran teguh,Gibran-Teguh,1,0.444444444,0,positive,0.444444444,2,Positif,,TRUE
+163,9/27/2020 10:40,keren nih monitor virtual paslon walikota solo gibran teguh moga pilih,Gibran-Teguh,1,0.181818182,0.272727273,negative,-0.090909091,2,Positif,,TRUE
+164,9/27/2020 10:35,salut kampanyenya paslon gibran teguh guys,Gibran-Teguh,1,0.333333333,0,positive,0.333333333,2,Positif,,TRUE
+165,2020-10-06 13:17:11,tetep kampanye pandemi monitor virtual blusukan,Bagyo-Supardjo,2,0,0,positive,0,0,Negatif,,FALSE
+166,2020-10-05 15:22:05,bagus bet ide kampanyenya paslon gibran teguh guys patut,Bagyo-Supardjo,2,0.222222222,0,positive,0.222222222,2,Positif,,FALSE
+167,2020-10-05 15:00:06,iki nek sampek bpk bagyo wahyono amp fx supardjo ora menang yo kebangeten,Bagyo-Supardjo,2,0.153846154,0,positive,0.153846154,0,Negatif,,FALSE
+168,2020-10-05 08:31:33,bawaslu solo satpol pp copot apk gambar gibran rakabuming rakateguh prakosa bagyo wahyonofx supardjo baj,Bagyo-Supardjo,2,0.333333333,0.066666667,positive,0.266666667,1,Netral,1,FALSE
+169,2020-10-05 02:41:02,bawaslu solo satpol pp copot apk gambar gibran rakabuming rakateguh prakosa bagyo wahyonofx sup,Bagyo-Supardjo,2,0.357142857,0.071428571,positive,0.285714286,1,Netral,1,FALSE
+170,2020-10-05 00:30:00,alat raga kampanye apk gibranteguh bagyosupardjo anggap langgar atur bawaslu,Bagyo-Supardjo,2,0.1,0.1,positive,0,0,Negatif,,FALSE
+171,2020-10-04 08:11:36,gibran putra sulung presiden joko widodo pasang teguh prakoso pilkada solo lawan paslon independen bagyo w,Bagyo-Supardjo,2,0.1875,0.0625,positive,0.125,2,Positif,,FALSE
+172,2020-10-10 02:34:31,gibran putra sulung presiden joko widodo pasang teguh prakoso pilkada solo lawan paslon independ,Gibran-Teguh,2,0.214285714,0.071428571,positive,0.142857143,2,Positif,,FALSE
+173,2020-10-09 21:55:02,nasdem merepat gibranpada pilkada solo pasang gibranteguh lawan pasang jalur in,Gibran-Teguh,2,0.090909091,0.090909091,positive,0,0,Negatif,,FALSE
+174,2020-10-09 19:09:32,unik rawan solo hebat kenal visi misi gibranteguh latih door to door champaign,Gibran-Teguh,2,0.230769231,0.153846154,positive,0.076923077,0,Negatif,,FALSE
+175,2020-10-09 14:59:44,kpu serah apk pasang gibranteguh bajo,Gibran-Teguh,2,0.166666667,0,positive,0.166666667,0,Negatif,,FALSE
+176,2020-10-09 11:36:03,kpu serah apk pasang gibranteguh bajo nurul apk je,Gibran-Teguh,2,0.111111111,0,positive,0.111111111,0,Negatif,,FALSE
+177,2020-10-09 08:33:09,latih materi door to door champaign rawan solo hebat kenal visi misi gibran teguh calon pilih,Gibran-Teguh,2,0.125,0.25,negative,-0.125,2,Positif,,FALSE
+178,2020-10-09 08:29:28,pilkada solo pasang gibranteguh bajo terima apk kpu nurul apk terdir,Gibran-Teguh,2,0.181818182,0,positive,0.181818182,0,Negatif,,FALSE
+179,2020-10-09 08:28:57,gibran teguh bantu urus bst pkh kks warga,Gibran-Teguh,2,0.125,0,positive,0.125,2,Positif,,FALSE
+180,2020-10-09 08:28:51,gibran teguh mensejahterakan masyarakat kota solo tekan angka anggur,Gibran-Teguh,2,0.333333333,0,positive,0.333333333,2,Positif,,FALSE
+181,2020-10-09 06:47:43,dukung gibran teguh pilkada solo gibran teguh ad pa,Gibran-Teguh,2,0.222222222,0.111111111,positive,0.111111111,2,Positif,,FALSE
+182,2020-10-09 02:29:10,gibran teguh program fx rudy,Gibran-Teguh,2,0.4,0,positive,0.4,2,Positif,,FALSE
+183,2020-10-08 08:44:20,blusukan virtual metode kampanye cerdas paslon nomor urut gibranteguh pandemi covid,Gibran-Teguh,2,0.181818182,0,positive,0.181818182,0,Negatif,,FALSE
+184,2020-10-08 08:42:37,maaf sibuk,Gibran-Teguh,2,0.5,0,positive,0.5,0,Negatif,,FALSE
+185,2020-10-08 08:42:02,gibran teguh solo dukung gibran teguh pilkada solo pa,Gibran-Teguh,2,0.222222222,0.111111111,positive,0.111111111,2,Positif,,FALSE
+186,2020-10-08 08:41:15,gibran teguh patuh protokol sehat pilkada,Gibran-Teguh,2,0.666666667,0.166666667,positive,0.5,2,Positif,,FALSE
+187,2020-10-08 08:38:32,gibran teguh tandatangani pakta integritas deklarasi kampanye damai,Gibran-Teguh,2,0.375,0,positive,0.375,2,Positif,,FALSE
+188,2020-10-08 03:27:20,blusukan online gibran teguh hindar sebar covid,Gibran-Teguh,2,0.142857143,0,positive,0.142857143,2,Positif,,FALSE
+189,2020-10-07 14:08:41,gibran teguh optimal kampanye virtual,Gibran-Teguh,2,0.4,0,positive,0.4,2,Positif,,FALSE
+190,2020-10-07 02:30:00,nderek gibran nderek teguh lengkap,Gibran-Teguh,2,0.2,0.2,positive,0,2,Positif,,FALSE
+191,2020-10-06 15:02:33,former jakarta deputy governor sandiaga uno is set to join the campaign team for president joko jokowi widodos eldest son g,Gibran-Teguh,2,0,0,positive,0,0,Negatif,,FALSE
+192,2020-10-06 08:54:52,pilkada serentak pandemi gibran teguh jalan misi kampanye virtual,Gibran-Teguh,2,0.111111111,0,positive,0.111111111,2,Positif,,FALSE
+193,2020-10-06 08:09:47,dukung gibranteguh partai golkar solo target,Gibran-Teguh,2,0.166666667,0.333333333,negative,-0.166666667,0,Negatif,,FALSE
+194,2020-10-06 08:08:53,an apk gibranteguh bajo semprit bawaslu gibranrakabuming polisipamongpraja laweyansurakarta,Gibran-Teguh,2,0.333333333,0.111111111,positive,0.222222222,0,Negatif,,FALSE
+195,2020-10-06 08:08:16,gibran teguh gagas sesuai protokol sehat raup dukung kampanye blusukan onli,Gibran-Teguh,2,0.363636364,0.090909091,positive,0.272727273,2,Positif,,FALSE
+196,2020-10-06 08:07:38,gibran teguh komitmen terap protokol sehat pilkada solo,Gibran-Teguh,2,0.5,0,positive,0.5,2,Positif,,FALSE
+197,2020-10-06 06:35:00,gibran teguh komitmen jalan pilkada terap protokol sehat ketat disiplin,Gibran-Teguh,2,0.4,0.1,positive,0.3,2,Positif,,FALSE
+198,2020-10-06 05:57:51,lupa dukung gt gibran teguh sigap pa,Gibran-Teguh,2,0.285714286,0.285714286,positive,0,2,Positif,,FALSE
+199,2020-10-06 05:44:24,badan awas milu bawaslu solo jawa temu alat raga kampanye apk milik,Gibran-Teguh,2,0.166666667,0.166666667,positive,0,0,Negatif,,FALSE
+200,2020-10-06 05:32:12,mobil box modifikasi layar monitor henti pajang laweyantim balut kaos gambar gib,Gibran-Teguh,2,0,0,positive,0,0,Negatif,,FALSE
+201,2020-10-06 02:26:40,an apk gibranteguh bajo semprit bawaslu,Gibran-Teguh,2,0.166666667,0.166666667,positive,0,0,Negatif,,FALSE
+202,2020-10-06 00:45:58,bawaslu satpol pp copot apk gibranteguh bajo langgar atur,Gibran-Teguh,2,0.111111111,0.111111111,positive,0,0,Negatif,,FALSE
+203,2020-10-06 00:40:46,apk gibranteguh bajo independen kena semprit bawaslu pasang pohon,Gibran-Teguh,2,0.111111111,0.111111111,positive,0,0,Negatif,,FALSE
+204,2020-10-06 00:38:42,gibranteguh sapa warga lurah ketel virtual blusukan virtual isi dgn,Gibran-Teguh,2,0.1,0,positive,0.1,0,Negatif,,FALSE
+205,2020-10-06 00:36:09,blusukan virtual kaum ampuh amp efektif gibranteguh jabar visi misi pandemi,Gibran-Teguh,2,0.181818182,0,positive,0.181818182,0,Negatif,,FALSE
+206,2020-10-06 00:28:55,kelola tugas parkir kota surakarta dukung calon walikota calon wakil walikota s,Gibran-Teguh,2,0.083333333,0.25,negative,-0.166666667,1,Netral,1,FALSE
+207,2020-10-05 11:42:52,silaturahmi tokoh masyarakat tokoh agama lurah baluwarti calon pasang walikota calon wakil wal,Gibran-Teguh,2,0.230769231,0.153846154,positive,0.076923077,1,Netral,1,FALSE
+208,2020-10-05 09:50:49,warga kemlayan antusias sambut hadir pasang gibranteguh tengahtengah,Gibran-Teguh,2,0.25,0,positive,0.25,0,Negatif,,FALSE
+209,2020-10-05 09:50:08,bawaslu solo temu apk langgar atur milik gibranteguh kecamatanpasarkliwon jebressurakarta,Gibran-Teguh,2,0.3,0.2,positive,0.1,0,Negatif,,FALSE
+210,2020-10-05 08:07:28,thanks tampung pwr inikekuatankita,Gibran-Teguh,2,0.25,0.5,negative,-0.25,0,Negatif,,FALSE
+211,2020-10-05 08:07:04,ngingetin bang kalo tuh pwr masingmasing hidup san,Gibran-Teguh,2,0,0.25,negative,-0.25,0,Negatif,,FALSE
+212,2020-10-05 08:05:58,nomer siji ora mblenjani gibran teguh for solo,Gibran-Teguh,2,0.125,0,positive,0.125,2,Positif,,FALSE
+213,2020-10-05 08:05:48,pilih nomor gibran teguh for solo,Gibran-Teguh,2,0.166666667,0.166666667,positive,0,2,Positif,,FALSE
+214,2020-10-05 04:06:33,dukung gibran teguh solo ber,Gibran-Teguh,2,0.2,0.2,positive,0,2,Positif,,FALSE
+215,2020-10-05 02:51:25,nomer siji ora ngapusi gibran teguh for solo,Gibran-Teguh,2,0.125,0,positive,0.125,2,Positif,,FALSE
+216,2020-10-05 02:47:51,paslon bajo andal komunitas tikus pithi lawan paslon gibranteguh kampanye tokoh na,Gibran-Teguh,2,0.25,0.166666667,positive,0.083333333,0,Negatif,,FALSE
+217,2020-10-05 01:36:48,gibran pasang teguh prakosa terima aspirasi warga lurah ketel camat banjarsari solo,Gibran-Teguh,2,0.416666667,0,positive,0.416666667,2,Positif,,FALSE
+218,2020-10-04 12:27:57,gibran pasang teguh prakosa terima aspirasi warga lurah ketel camat banjarsari solo,Gibran-Teguh,2,0.416666667,0,positive,0.416666667,2,Positif,,FALSE
+219,2020-10-04 12:07:32,simulasi debat pilkada solo gibran teguh sparing tokoh,Gibran-Teguh,2,0.25,0,positive,0.25,2,Positif,,FALSE
+220,2020-10-04 11:24:08,lho calon indefenden calon tantang gibran rakabumingteguh prakosa pilkada solomereka bagyo wahyon,Gibran-Teguh,2,0.333333333,0.166666667,positive,0.166666667,2,Positif,,FALSE
+221,2020-10-04 10:58:33,sandiaga uno jurkam gibranteguh pilkada solo klik baca download aplik,Gibran-Teguh,2,0.1,0.1,positive,0,0,Negatif,,FALSE
+222,2020-10-04 08:11:09,detiknetwork sandiaga uno kampanye pasang calon gibran rakabuming rakateguh prakosa pilkada so,Gibran-Teguh,2,0.333333333,0.083333333,positive,0.25,1,Netral,1,FALSE
+223,2020-10-04 08:10:41,teguh pasang gibran pilkada solo gibran betah kampanye secar,Gibran-Teguh,2,0.111111111,0,positive,0.111111111,2,Positif,,FALSE
+224,2020-10-04 08:10:16,optimistis capai target pasang usung pdip raih kursi mayoritas d,Gibran-Teguh,2,0.2,0.1,positive,0.1,0,Negatif,,FALSE
+225,2020-10-04 08:08:49,laksana terap protokol sehat ketatgibranteguh menang menangny,Gibran-Teguh,2,0.714285714,0.142857143,positive,0.571428571,0,Negatif,,FALSE
+226,2020-10-04 07:02:32,target hadap sosialisasi calon wali kota wakil wali kota dige,Gibran-Teguh,2,0.1,0.2,negative,-0.1,1,Netral,1,FALSE
+227,2020-10-04 06:48:03,politik ndak orang sumbang receh harta dim,Gibran-Teguh,2,0.142857143,0.142857143,positive,0,0,Negatif,,FALSE
+228,2020-10-04 06:00:00,lawan pasang jahit ketua rt sederet nama tokoh nasional terjun jurkam gibran teguh,Gibran-Teguh,2,0.153846154,0.076923077,positive,0.076923077,2,Positif,,FALSE
+229,2020-10-04 05:26:32,former jakarta deputy governor sandiaga uno is set to join the campaign team for president joko jokowi widodos e,Gibran-Teguh,2,0,0,positive,0,0,Negatif,,FALSE
+230,2020-10-04 04:36:38,detiknetwork sandiaga uno kampanye pasang calon gibran rakabuming rakateguh prakosa pilk,Gibran-Teguh,2,0.363636364,0.090909091,positive,0.272727273,1,Netral,1,FALSE
+231,2020-10-04 04:33:16,tokoh politik sedia jurkam gibranteguh salah megawati tum pdip harap don,Gibran-Teguh,2,0.181818182,0.090909091,positive,0.090909091,0,Negatif,,FALSE
+232,2020-10-03 12:08:23,elite politik kabar turun tangan bantu kampanye pasang gibranteguh pilkada solo,Gibran-Teguh,2,0.181818182,0,positive,0.181818182,0,Negatif,,FALSE
+233,2020-10-03 08:46:43,elite politik kabar turun tangan bantu kampanye pasang gibranteguh pilkada sol,Gibran-Teguh,2,0.181818182,0,positive,0.181818182,0,Negatif,,FALSE
+234,2020-10-03 08:37:41,sandi uno kampanye gibranteguh pilkada solo lobi jokowiperjuangan bapak martabak anak,Gibran-Teguh,2,0.090909091,0.181818182,negative,-0.090909091,0,Negatif,,FALSE
+235,2020-10-03 02:33:06,selamet ye orang solo nyang udeh taonan dukung akhirnye kampanye bareng bang sandi s,Gibran-Teguh,2,0,0.071428571,negative,-0.071428571,0,Negatif,,FALSE
+236,2020-10-03 02:32:30,neh jokoism garis monyong,Gibran-Teguh,2,0,0,positive,0,0,Negatif,,FALSE
+237,2020-10-02 22:49:32,rumah,Gibran-Teguh,2,0,0,positive,0,0,Negatif,,FALSE
+238,2020-10-02 22:16:13,sekolah online,Gibran-Teguh,2,0,0,positive,0,0,Negatif,,FALSE
+239,2020-10-02 20:43:31,populer nusantara konlik kapolres blitar kasat sabhara solo sandiaga ipers,Gibran-Teguh,2,0.1,0,positive,0.1,0,Negatif,,FALSE
+240,2020-10-02 12:46:17,sandiaga uno kampanye pasang calon wali kota wakil wali kota solo gibran rakabuming rakateguh prakos,Gibran-Teguh,2,0.266666667,0.066666667,positive,0.2,1,Netral,1,FALSE
+241,2020-10-02 10:18:33,ninggal tatukowe tak sayangsayang saiki ngilang tresnamu karo kuwi mung kiasankowe tak gadhang,Gibran-Teguh,2,0.153846154,0.153846154,positive,0,0,Negatif,,FALSE
+242,2020-10-02 09:33:53,sandi uno kampanye gibranteguh pilkada solo lobi jokowiperjuangan bapak mart,Gibran-Teguh,2,0.1,0.2,negative,-0.1,0,Negatif,,FALSE
+243,2020-10-02 08:32:26,respons kabar sandiaga jurkam gibran rancang kampanye daring wakil ketua dewan bina partai gerindra,Gibran-Teguh,2,0,0.071428571,negative,-0.071428571,1,Netral,1,FALSE
+244,2020-10-02 08:31:51,sandiaga uno kampanye gibranteguh pilkada solo lobi jokowi borong medan solo htt,Gibran-Teguh,2,0.083333333,0.083333333,positive,0,0,Negatif,,FALSE
+245,2020-10-02 08:31:15,gibran teguh pilkada sesuai jadwal demokratis aman covid,Gibran-Teguh,2,0.375,0,positive,0.375,2,Positif,,FALSE
+246,2020-10-02 08:29:24,solo ber gibran teguh pilih,Gibran-Teguh,2,0.2,0.2,positive,0,2,Positif,,FALSE
+247,2020-10-02 07:30:03,gibran teguh nomor urut pilkada solo pa,Gibran-Teguh,2,0.142857143,0,positive,0.142857143,2,Positif,,FALSE
+248,2020-10-02 06:45:05,gibran teguh dukung pilkada aman secret clean pt victoria care bantu hand sanitizer,Gibran-Teguh,2,0.153846154,0.076923077,positive,0.076923077,2,Positif,,FALSE
+249,2020-10-02 06:44:27,sandiaga uno digadanggadang jurkam paslon gibranteguh pilkada solo sandiaga jurkam ta,Gibran-Teguh,2,0.090909091,0,positive,0.090909091,0,Negatif,,FALSE
+250,2020-10-02 06:42:40,mantan wakil gubernur dki jakarta sandiaga uno kampanye pasang calon gibran rakabuming rakate,Gibran-Teguh,2,0.153846154,0.076923077,positive,0.076923077,1,Netral,1,FALSE
+251,2020-10-02 06:17:54,gk butuh jurkam pusat spt warga solo berdi,Gibran-Teguh,2,0.125,0.125,positive,0,0,Negatif,,FALSE
+252,2020-10-02 05:02:28,wakil ketua dpp gerindra kampanye pasang calon wali kota wakil wali kota solo gi,Gibran-Teguh,2,0,0.071428571,negative,-0.071428571,1,Netral,1,FALSE
+253,2020-10-02 05:02:27,wakil ketua dpp gerindra kampanye pasang calon wali kota wakil wali kota so,Gibran-Teguh,2,0,0.076923077,negative,-0.076923077,1,Netral,1,FALSE
+255,2020-10-02 03:30:00,faktor sandiaga prabowo subianto ketua dpp partai gerindra presiden jokowi s,Gibran-Teguh,2,0.090909091,0.090909091,positive,0,0,Negatif,,FALSE
+256,2020-10-02 03:12:50,wakil ketua dewan bina partai gerindra sandiaga salahudin uno kampanye jurkam pasang,Gibran-Teguh,2,0,0.166666667,negative,-0.166666667,1,Netral,1,FALSE
+257,2020-10-02 01:53:32,orang amerika mikir biden menang trump kalah anaknya biden nyalon,Gibran-Teguh,2,0.1,0.1,positive,0,0,Negatif,,FALSE
+258,2020-10-02 01:39:02,politis partai gerindra sandiaga solahuddin uno kampanye jurkam pasang calon wali kota w,Gibran-Teguh,2,0,0.153846154,negative,-0.153846154,1,Netral,1,FALSE
+259,2020-10-01 23:35:33,sandiaga uno kampanye pasang calon wali kota wakil wali kota solo gibran rakabuming rakateguh,Gibran-Teguh,2,0.214285714,0.071428571,positive,0.142857143,1,Netral,1,FALSE
+260,2020-10-01 23:02:10,oh,Gibran-Teguh,2,0,0,positive,0,0,Negatif,,FALSE
+261,2020-10-01 23:01:50,sandiaga jurkam gibran solo bobby medan faktor sandiaga prabowo,Gibran-Teguh,2,0,0.111111111,negative,-0.111111111,0,Negatif,,FALSE
+262,2020-10-01 22:34:18,politis partai gerindra sandiaga solahuddin uno jukam pasang calon wali kota wakil wali,Gibran-Teguh,2,0,0.153846154,negative,-0.153846154,1,Netral,1,FALSE
+263,2020-10-01 21:00:27,apbd kota solo bahas teguh masamasa sabar an,Gibran-Teguh,2,0.25,0.25,positive,0,2,Positif,,FALSE
+264,2020-10-01 17:49:08,komitmen taat protokol sehat dengung warga program prioritas tegu,Gibran-Teguh,2,0.555555556,0,positive,0.555555556,0,Negatif,,FALSE
+265,2020-10-01 16:27:26,sandiaga uno kampanye gibranteguh pilkada solo lobi jokowi borong medan sol,Gibran-Teguh,2,0.090909091,0.090909091,positive,0,0,Negatif,,FALSE
+266,2020-10-01 15:42:31,gibran nggak manuver kirakira tum enggak pdip ng,Gibran-Teguh,2,0.125,0,positive,0.125,2,Positif,,FALSE
+267,2020-10-15 05:35:53,lobilobinya politik tingkat tum prabowo subianto jokowi,Bagyo-Supardjo,3,0.142857143,0,positive,0.142857143,0,Negatif,,FALSE
+268,2020-10-16 13:58:54,politis partai gerindra sandiaga solahuddin uno jukam pasang calon wali kota wakil wali kota sol,Gibran-Teguh,3,0,0.133333333,negative,-0.133333333,1,Netral,1,FALSE
+269,2020-10-16 11:38:53,kabar papa online sandiaga uno jurkam gibranteguh pilkada solo klik baca,Gibran-Teguh,3,0.090909091,0.090909091,positive,0,0,Negatif,,FALSE
+270,2020-10-16 09:59:13,bangyo bagyo bagyo supardjo,Gibran-Teguh,3,0,0,positive,0,0,Negatif,,FALSE
+271,2020-10-16 08:35:00,kemudi becak kota solo deklarasi dukung gibran teguh,Gibran-Teguh,3,0.125,0.125,positive,0,2,Positif,,FALSE
+272,2020-10-16 07:00:05,kemudi becak kota solo deklarasi dukung gibranteguh,Gibran-Teguh,3,0.142857143,0.142857143,positive,0,0,Negatif,,FALSE
+273,2020-10-15 09:32:20,banjir dukung gibranteguh dukung penuh kemudi becak solo,Gibran-Teguh,3,0.25,0.375,negative,-0.125,0,Negatif,,FALSE
+274,2020-10-15 05:37:33,calon wali kota nomor gibran rakabuming tokoh nasional kampanye jurkam,Gibran-Teguh,3,0.2,0.1,positive,0.1,1,Netral,1,FALSE
+275,2020-10-14 13:25:17,silaturahmi warga gending gibran teguh janji bangun kota solo kota budaya modern pa,Gibran-Teguh,3,0.307692308,0,positive,0.307692308,2,Positif,,FALSE
+276,2020-10-14 10:33:04,pilkada surakarta gapensi dukung gibran teguh,Gibran-Teguh,3,0.333333333,0.166666667,positive,0.166666667,2,Positif,,FALSE
+277,2020-10-14 10:05:28,gibran sandiaga jurkam hadir daring sandiaga petinggi pdip turun gunung m,Gibran-Teguh,3,0,0,positive,0,0,Negatif,,FALSE
+278,2020-10-14 08:48:57,mantap dukung gibran teguh pilkada gapensi harap bangun solo tumbuh pesat,Gibran-Teguh,3,0.181818182,0.090909091,positive,0.090909091,2,Positif,,FALSE
+279,2020-10-14 07:36:05,harap bangun tingkat pesat gapensi solo dukung gibranteguh pilkada,Gibran-Teguh,3,0.222222222,0.111111111,positive,0.111111111,0,Negatif,,FALSE
+280,2020-10-14 05:59:47,masyarakat jasa konstruksi solo mantab dukung pasang gibranteguh alas,Gibran-Teguh,3,0.333333333,0.111111111,positive,0.222222222,0,Negatif,,FALSE
+281,2020-10-14 04:49:35,maju gibran rakabuming teguh oum titiz dukung oum titiz segan oum titiz hormat,Gibran-Teguh,3,0.307692308,0.153846154,positive,0.153846154,2,Positif,,FALSE
+282,2020-10-13 19:54:53,gapensi surakarta dukung gibranteguh,Gibran-Teguh,3,0.5,0.25,positive,0.25,0,Negatif,,FALSE
+283,2020-10-13 19:13:17,paslon no gibran teguh no bagyo suparjo adu gagas bangun surakarta debat publik sej,Gibran-Teguh,3,0.214285714,0,positive,0.214285714,2,Positif,,FALSE
+284,2020-10-13 12:01:10,bismillah mari menang gibranteguh gibranforsolo,Gibran-Teguh,3,0.4,0,positive,0.4,0,Negatif,,FALSE
+285,2020-10-13 08:59:01,satpol pp solo turun apk langgar spanduk milik gibranteguh bajo spanduk,Gibran-Teguh,3,0.090909091,0,positive,0.090909091,0,Negatif,,FALSE
+286,2020-10-13 04:04:56,satpol pp turun spanduk milik gibranteguh gibranrakabuming teguhprakosa polisipamongpraja kotasurakarta,Gibran-Teguh,3,0.5,0,positive,0.5,0,Negatif,,FALSE
+287,2020-10-12 21:36:53,hindar klaster sebar covid gibran teguh maksimal blusukan online paslon bajo rambah medsos,Gibran-Teguh,3,0.076923077,0,positive,0.076923077,2,Positif,,FALSE
+288,2020-10-12 21:18:52,tim gibranteguh satpol pp copot apk,Gibran-Teguh,3,0.166666667,0,positive,0.166666667,0,Negatif,,FALSE
+289,2020-10-12 16:50:00,satpol pp solo turun apk langgar spanduk milik gibranteguh bajo spanduk,Gibran-Teguh,3,0.090909091,0,positive,0.090909091,0,Negatif,,FALSE
+290,2020-10-12 16:00:05,satpol pp solo copot pasang apk langgar milik gibranteguh kecamatanpasarkliwon,Gibran-Teguh,3,0.2,0.1,positive,0.1,0,Negatif,,FALSE
+291,2020-10-12 12:01:24,timses tak apk gibranteguh langgar copot satpol pp solo gibranrakabuming polisipamongpraja,Gibran-Teguh,3,0.181818182,0,positive,0.181818182,0,Negatif,,FALSE
+292,2020-10-12 11:28:31,apk tertib satpol pp milik pasang cawali cawawali nomo,Gibran-Teguh,3,0.111111111,0,positive,0.111111111,0,Negatif,,FALSE
+293,2020-10-12 10:11:00,satpol pp turun spanduk milik gibranteguh,Gibran-Teguh,3,0.166666667,0,positive,0.166666667,0,Negatif,,FALSE
+294,2020-10-12 07:29:34,salah atur puluh apk gibranteguh bajo turun tim gabung bawaslu solo,Gibran-Teguh,3,0.090909091,0.181818182,negative,-0.090909091,0,Negatif,,FALSE
+295,2020-10-12 06:13:34,satpol pp puluh spanduk apk paslon gibranteguh turun paksa langgar aturanpilkada solo,Gibran-Teguh,3,0.083333333,0,positive,0.083333333,0,Negatif,,FALSE
+296,2020-10-12 05:35:00,apk gibranteguh tertib satpol pp tanggap tim menang,Gibran-Teguh,3,0.375,0,positive,0.375,0,Negatif,,FALSE
+297,2020-10-12 04:52:33,gibran teguh kena salah baju kampanye rancang rawan dukung gibran teguh for solo,Gibran-Teguh,3,0.153846154,0.230769231,negative,-0.076923077,2,Positif,,FALSE
+298,2020-10-12 03:02:46,timses satpol pp cabut spanduk rumah warga dukung gibranteguh,Gibran-Teguh,3,0.111111111,0.111111111,positive,0,0,Negatif,,FALSE
+299,2020-10-12 02:40:49,copot sesuai langgar wali nomor white area zona terl,Gibran-Teguh,3,0.111111111,0,positive,0.111111111,0,Negatif,,FALSE
+300,2020-10-11 12:29:44,copot sesuai langgar wali nomor white area,Gibran-Teguh,3,0.142857143,0,positive,0.142857143,0,Negatif,,FALSE
+301,2020-10-11 10:21:31,kampanye virtual gibranteguh kpu pemkot tekan,Gibran-Teguh,3,0.166666667,0,positive,0.166666667,0,Negatif,,FALSE
+302,2020-10-11 08:07:57,menang gibran teguh partai gerindra solo panas mesin partai proses politik,Gibran-Teguh,3,0.363636364,0.272727273,positive,0.090909091,2,Positif,,FALSE
+303,2020-10-11 07:02:57,kampanye pilwakot solo pasang gibranteguh patuh protokol sehat,Gibran-Teguh,3,0.5,0.125,positive,0.375,0,Negatif,,FALSE
+304,2020-10-11 04:01:38,calon pimpin responsif warga membutuhkansemoga menang,Gibran-Teguh,3,0.5,0.333333333,positive,0.166666667,0,Negatif,,FALSE
+305,2020-10-11 01:23:08,gibran teguh,Gibran-Teguh,3,0.5,0,positive,0.5,2,Positif,,FALSE
+306,2020-10-10 16:03:37,gibran rakabuming teguh patuh atur kampanye pilkada solo,Gibran-Teguh,3,0.375,0.125,positive,0.25,2,Positif,,FALSE
+307,2020-10-10 14:44:28,visi misi dr pasang no gibranteguhassalamualaikum wr wbah bias,Gibran-Teguh,3,0.111111111,0.111111111,positive,0,0,Negatif,,FALSE
+308,2020-10-10 14:40:50,sandiaga s uno resmi jurkam gibranteguh solo,Gibran-Teguh,3,0.142857143,0,positive,0.142857143,0,Negatif,,FALSE
+309,2020-10-10 14:40:00,tugas sandiaga uno jurkam gibranteguh,Gibran-Teguh,3,0.2,0,positive,0.2,0,Negatif,,FALSE
+310,2020-10-10 14:22:04,sandiaga s uno kampanye jurkam pasang gibran rakabuming rakateguh prakosa pil,Gibran-Teguh,3,0.363636364,0,positive,0.363636364,1,Netral,1,FALSE
+311,2020-10-10 11:36:24,dpc partai gerindra kota solo target menang paslon gibranteguh sebesar ketua dpc pdip kota s,Gibran-Teguh,3,0.2,0.066666667,positive,0.133333333,0,Negatif,,FALSE
+312,2020-10-10 10:39:32,sandiaga s uno kampanye jurkam pasang gibran rakabuming rakateguh prakosa,Gibran-Teguh,3,0.4,0,positive,0.4,1,Netral,1,FALSE
+313,2020-10-10 10:35:21,dpc partai gerindra kota solo target menang paslon gibranteguh sebesar ketua dpc p,Gibran-Teguh,3,0.230769231,0.076923077,positive,0.153846154,0,Negatif,,FALSE
+314,2020-10-10 10:28:24,sandiaga uno kampanye gibranteguh pilkada solo,Gibran-Teguh,3,0.166666667,0,positive,0.166666667,0,Negatif,,FALSE
+315,2020-10-10 09:59:33,orang rawan gibranteguh gabung solo hebat latih kampanye door to door y,Gibran-Teguh,3,0.166666667,0.166666667,positive,0,0,Negatif,,FALSE
+316,2020-10-10 09:26:03,wakil ketua dewan bina dpp partai gerindra sandiaga s uno kampanye jurkam pasang,Gibran-Teguh,3,0,0.076923077,negative,-0.076923077,1,Netral,1,FALSE
+317,2020-10-10 09:07:32,wakil ketua dewan bina dpp partai gerindra sandiaga s uno kampanye jurkam pa,Gibran-Teguh,3,0,0.076923077,negative,-0.076923077,1,Netral,1,FALSE
+318,2020-10-10 07:03:57,jurkam gibranteguh sandiaga uno terima surat tugas,Gibran-Teguh,3,0.285714286,0,positive,0.285714286,0,Negatif,,FALSE
+319,2020-10-10 06:04:26,jurkan gibranteguh sandiaga uno terima surat tugas,Gibran-Teguh,3,0.285714286,0,positive,0.285714286,0,Negatif,,FALSE
+320,2020-10-20 11:20:27,sandiaga tugas jurkam gibranteguh,Bagyo-Supardjo,4,0.25,0,positive,0.25,0,Negatif,,FALSE
+321,2020-10-20 03:34:07,kampanye asik virtual box gibranteguh pandemi covid gibranteguhmenangpersen,Bagyo-Supardjo,4,0.375,0,positive,0.375,0,Negatif,,FALSE
+322,2020-10-19 07:19:22,kampanye asik virtual box gibranteguh pandemi covid gibranteguhmenangpersen,Bagyo-Supardjo,4,0.375,0,positive,0.375,0,Negatif,,FALSE
+323,2020-10-19 06:59:26,paslonkampanyeprokessejauh lapor langgar paslon gibran rakabuming raka teg,Bagyo-Supardjo,4,0.375,0.125,positive,0.25,2,Positif,,FALSE
+324,2020-10-17 14:36:20,paslonkampanyeprokessejauh lapor langgar paslon gibran rakabuming raka,Bagyo-Supardjo,4,0.428571429,0.142857143,positive,0.285714286,2,Positif,,FALSE
+325,2020-10-17 14:17:21,debat buka gibranteguh amp bagyosupardjo gelar november,Bagyo-Supardjo,4,0.142857143,0,positive,0.142857143,0,Negatif,,FALSE
+326,2020-10-17 07:32:36,debat buka gibranteguh amp bagyosupardjo gelar november,Bagyo-Supardjo,4,0.142857143,0,positive,0.142857143,0,Negatif,,FALSE
+327,2020-10-23 08:40:08,dukung pasang independen pilkada solo bagyo wahyono fx supardjo bajo alir purnawirawan jua,Gibran-Teguh,4,0.076923077,0.153846154,negative,-0.076923077,0,Negatif,,FALSE
+328,2020-10-23 03:40:20,dukung pasang independen pilkada solo bagyo wahyono fx supardjo bajo alir purnawiraw,Gibran-Teguh,4,0.083333333,0.083333333,positive,0,0,Negatif,,FALSE
+329,2020-10-23 02:28:25,apk turun satpol pp solo bagyosupardjo ngaku tak belah tertib,Gibran-Teguh,4,0.1,0.1,positive,0,0,Negatif,,FALSE
+330,2020-10-23 02:25:30,gibranteguh kampanye blusukan online pa,Gibran-Teguh,4,0.2,0,positive,0.2,0,Negatif,,FALSE
+331,2020-10-22 07:45:46,usul gibran silaturahmi warga rejosari rw coblos no gibran,Gibran-Teguh,4,0,0,positive,0,2,Positif,,FALSE
+332,2020-10-22 07:44:37,gibranteguh lahir masyarakat juang abdi rakyatgibranteguhmenangpdiperjuangan,Gibran-Teguh,4,0.833333333,0.166666667,positive,0.666666667,0,Negatif,,FALSE
+333,2020-10-22 03:52:22,sandiaga uno tunggu restu dpp dpc gerindra solo sasar tokoh lokal jurkam gibranteguh,Gibran-Teguh,4,0.153846154,0,positive,0.153846154,0,Negatif,,FALSE
+334,2020-10-22 03:11:44,anis matta seruk dukung gibranteguh pilkada solo,Gibran-Teguh,4,0.142857143,0.142857143,positive,0,0,Negatif,,FALSE
+335,2020-10-22 01:59:09,dukung pkpi gibranteguh apresiasi kuat pa,Gibran-Teguh,4,0.5,0.333333333,positive,0.166666667,0,Negatif,,FALSE
+336,2020-10-21 18:20:09,warga solo kaget istri milik posko rawan gibranteguh tewas,Gibran-Teguh,4,0.111111111,0.111111111,positive,0,0,Negatif,,FALSE
+337,2020-10-21 15:06:09,haisaudarasaudara lupa pilih gibran teguhpemimpin kota solo,Gibran-Teguh,4,0.142857143,0.285714286,negative,-0.142857143,2,Positif,,FALSE
+338,2020-10-21 11:31:16,dukung gibran teguh,Gibran-Teguh,4,0.333333333,0.333333333,positive,0,2,Positif,,FALSE
+339,2020-10-21 11:05:03,gibranteguh bajo adu visi misi program kerja janjijanji pilkada solo,Gibran-Teguh,4,0.4,0,positive,0.4,0,Negatif,,FALSE
+340,2020-10-21 10:21:33,tinggal tragis timpa yulia warga baluwarti solo kejut pasalnya rumah duka kampung s,Gibran-Teguh,4,0,0.307692308,negative,-0.307692308,0,Negatif,,FALSE
+341,2020-10-21 09:35:53,dukung gibranteguh coblos no,Gibran-Teguh,4,0.25,0.25,positive,0,0,Negatif,,FALSE
+342,2020-10-21 06:24:01,salah visi misi gibran teguhpenyederhanaan birokrasi layan publik bijak putus deng,Gibran-Teguh,4,0.181818182,0.181818182,positive,0,2,Positif,,FALSE
+343,2020-10-21 03:27:00,tinggal tragis timpa yulia warga baluwarti solo kejut pasalnya rumah duka kamp,Gibran-Teguh,4,0,0.25,negative,-0.25,0,Negatif,,FALSE
+344,2020-10-21 03:19:49,kreatifmaju gibran teguh,Gibran-Teguh,4,1,0,positive,1,2,Positif,,FALSE
+345,2020-10-21 02:32:54,kampanye virtual gibranteguh jangkau warga pandemigibranteguhmenangpdiperjuangan,Gibran-Teguh,4,0.5,0.166666667,positive,0.333333333,0,Negatif,,FALSE
+346,2020-10-21 02:32:50,pagi solotetap jaga sehat yaa patuh prokeskali bin woroworomas gibran tak muda jiwa,Gibran-Teguh,4,0.384615385,0.076923077,positive,0.307692308,2,Positif,,FALSE
+347,2020-10-21 01:56:22,kampanye efektif amanmaju gibran teguh,Gibran-Teguh,4,0.8,0,positive,0.8,2,Positif,,FALSE
+348,2020-10-20 23:10:09,gebrak kampanye pandemi virtual boxmetode virtual campaign kreatif menya,Gibran-Teguh,4,0.222222222,0,positive,0.222222222,0,Negatif,,FALSE
+349,2020-10-20 22:47:46,pagi solotetap jaga sehat yaa patuh prokeskali bin woroworomas gibran tak muda,Gibran-Teguh,4,0.416666667,0.083333333,positive,0.333333333,2,Positif,,FALSE
+350,2020-10-20 16:13:01,salah visi misi gibran teguhpenyederhanaan birokrasi layan publik bijak putuska,Gibran-Teguh,4,0.2,0.2,positive,0,2,Positif,,FALSE
+351,2020-10-20 14:34:32,pagi bang abe coblos nomer gibran teguh,Gibran-Teguh,4,0.142857143,0,positive,0.142857143,2,Positif,,FALSE
+352,2020-10-20 03:02:31,virtual campaign box uhh emng deh gibran tokoh visioner aksioner bgt yee khn ayo wong solo coblos,Gibran-Teguh,4,0.176470588,0,positive,0.176470588,2,Positif,,FALSE
+353,2020-10-20 02:09:09,dukung gibran teguh menang pilkada harap komunitas tukang becak solo,Gibran-Teguh,4,0.2,0.1,positive,0.1,2,Positif,,FALSE
+354,2020-10-19 15:30:18,jaring internet gratis rawan diwa diah warih didik butuh la,Gibran-Teguh,4,0.2,0.3,negative,-0.1,0,Negatif,,FALSE
+355,2020-10-19 12:33:39,gibranteguh jelang debat calon wali kota solo,Gibran-Teguh,4,0.142857143,0.142857143,positive,0,1,Netral,1,FALSE
+356,2020-10-19 12:03:07,legowo tak wakil putra jokowi diah warih dukung menang gibranteguh,Gibran-Teguh,4,0.2,0.2,positive,0,0,Negatif,,FALSE
+357,2020-10-19 10:33:02,dukung gibranteguh diwa center luncur hpmu poskomu sosialisasi visimisi program kerja paslon no,Gibran-Teguh,4,0.230769231,0.153846154,positive,0.076923077,0,Negatif,,FALSE
+358,2020-10-19 08:42:56,bajo konsisten kampanye tatap muka gibranteguh kukuh temu warga virtual,Gibran-Teguh,4,0.3,0.1,positive,0.2,0,Negatif,,FALSE
+359,2020-10-19 06:04:03,video alas diah warih dukung gibranteguh,Gibran-Teguh,4,0.166666667,0.333333333,negative,-0.166666667,0,Negatif,,FALSE
+360,2020-10-19 01:38:08,gibranteguh debat pilkada solo november gibran simulasi ka,Gibran-Teguh,4,0.125,0,positive,0.125,0,Negatif,,FALSE
+361,2020-10-18 22:42:31,silaturahmi tegalharjo gibranteguh tak hapus program wmp waras wasis wareg mapan papan rudypoerno,Gibran-Teguh,4,0.230769231,0,positive,0.230769231,0,Negatif,,FALSE
+362,2020-10-18 17:00:33,maaf gibran teguh komentar bedaknya,Gibran-Teguh,4,0.4,0,positive,0.4,2,Positif,,FALSE
+363,2020-10-18 14:17:05,tim menang pan target gibranteguh menang pilkada solo ketua dpd pan achmad sapari mengatakandg terbent,Gibran-Teguh,4,0.2,0.066666667,positive,0.133333333,0,Negatif,,FALSE
+364,2020-10-18 14:07:03,pilkada solo gibranteguh target raup persen,Gibran-Teguh,4,0.166666667,0,positive,0.166666667,0,Negatif,,FALSE
+365,2020-10-18 13:28:33,kpu solo debat pilwalkot undang daya tarik televisi rebut siar ketua kpu solo nurul sutarti bena,Gibran-Teguh,4,0.0625,0,positive,0.0625,0,Negatif,,FALSE
+366,2020-10-18 11:22:36,ratus rawan dukung diah warih calon wakil wali kota solo alih dukung gibranteguh,Gibran-Teguh,4,0.076923077,0.461538462,negative,-0.384615385,1,Netral,1,FALSE
+367,2020-10-18 10:52:39,ratus rawan dukung diah warih calon wakil wali kota solo alih dukung gi,Gibran-Teguh,4,0,0.461538462,negative,-0.461538462,1,Netral,1,FALSE
+368,2020-10-18 10:48:02,dpd pan kota solo salah partai dukung gibranteguh target menang paslon all,Gibran-Teguh,4,0.166666667,0.25,negative,-0.083333333,0,Negatif,,FALSE
+369,2020-10-18 10:36:05,pan target gibranteguh menang persen,Gibran-Teguh,4,0.4,0,positive,0.4,0,Negatif,,FALSE
+370,2020-10-18 09:50:36,kampanye virtual box gibranteguh tiru gibran gak paten biar tiru,Gibran-Teguh,4,0.1,0,positive,0.1,0,Negatif,,FALSE
+371,2020-10-18 06:35:33,gibranteguh panas mesin tim menang internal pan solo targetnya,Gibran-Teguh,4,0.333333333,0.111111111,positive,0.222222222,0,Negatif,,FALSE
+372,2020-10-18 04:56:56,tim menang pan target gibranteguh menang pilkada solo persen ketua dpd pan achmad sapari de,Gibran-Teguh,4,0.2,0,positive,0.2,0,Negatif,,FALSE
+373,2020-10-18 04:56:44,ratus sahabat diah warih alih dukung paslon gibranteguh,Gibran-Teguh,4,0.25,0.375,negative,-0.125,0,Negatif,,FALSE
+374,2020-10-18 03:51:19,kpu solo debat pilwalkot undang daya tarik televisi rebut siar ketua kpu sol,Gibran-Teguh,4,0.076923077,0,positive,0.076923077,0,Negatif,,FALSE
+375,2020-10-18 03:22:40,jadwal debat perdana gibran teguh vs bagyo tukang jahit ketua rw pilkada solo,Gibran-Teguh,4,0.076923077,0,positive,0.076923077,2,Positif,,FALSE
+376,2020-10-17 23:42:04,pesan tokoh muhammadiyah gibran anak jokowi wakilnya teguh pilkada solo,Gibran-Teguh,4,0.2,0,positive,0.2,2,Positif,,FALSE
+377,2020-10-17 03:03:05,kompak kemudi becak kota solo deklarasi dukung gibranteguh,Gibran-Teguh,4,0.25,0.125,positive,0.125,0,Negatif,,FALSE
+378,2020-10-17 03:01:22,pesan tokoh muhammadiyah pasang gibranteguh solo guyub rukun,Gibran-Teguh,4,0.25,0,positive,0.25,0,Negatif,,FALSE
+379,2020-10-17 02:42:21,gibranteguh gandeng muhammadiyah sinergi tanggulang covid,Gibran-Teguh,4,0.166666667,0.166666667,positive,0,0,Negatif,,FALSE
+380,2020-10-17 02:34:31,wuih bapak supir becak partisipasi engga solohebat,Gibran-Teguh,4,0.142857143,0.285714286,negative,-0.142857143,0,Negatif,,FALSE
+381,2020-10-17 02:21:28,solohebat solomelompatlebihjauh melompatlebihjauh bersamasamabangunsolo,Gibran-Teguh,4,0.5,1.25,negative,-0.75,0,Negatif,,FALSE
+382,2020-10-16 16:04:06,pantang lelah gibranteguh jalin komunikasi tali silahturahmi tokoh masyarakat,Gibran-Teguh,4,0.444444444,0.111111111,positive,0.333333333,0,Negatif,,FALSE
+383,2020-10-16 15:03:49,semprot disinfektan wilayah kampung sewu jagal gibranteguh pesan taat p,Gibran-Teguh,4,0.3,0.1,positive,0.2,0,Negatif,,FALSE
