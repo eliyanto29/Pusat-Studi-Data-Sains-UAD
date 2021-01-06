@@ -1,0 +1,225 @@
+---
+title: "Matriks Pada R"
+author: "Pusat Studi Data Sains (PSDS) Program Studi Matematika UAD"
+date: "1/6/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Matriks pada R
+Assalamualaikum warahmatullahi wabarakatuh, Robbi Zidni Ilma Warzuqni Fahma, Aamiin
+Semoga Allah senantiasa memberkahi kita, dan menganugerahkan kepada kita, Ilmu yang bermanfaat. Dalam modul ini, teman-teman akan belajar matriks pada R.
+
+**Membuat Matriks Pada R:**
+Pada modul ini, kita akan fokus pada penggunaan fungsi matrix(). Untuk membuat matriks dengan fungsi ini, maka kita perlu menginputkan sebuah vektor kemudian ukuran dari matriks yang kita inginkan. Misal vektor [1,2,3,4] bisa dibuat menjadi matriks 2x2.
+
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(1,2,3,4), #Vektor elemen matriks
+            2,               #Jumlah baris
+            2)               #Jumlah kolom
+A
+
+```
+**Mengecek apakah objek ini matriks atau bukan**
+```{r}
+#Apakah A matriks
+is.matrix(A)
+#Apakah A Vektor
+is.vector(A)
+```
+# Operasi Matriks pada R
+Untuk melakukan operasi Matriks, kita tinggal mendefinisikan matrik yangakan kita operasikan terlebih dahulu kemudian melakukan operasi layaknya kalkulator.
+
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(2,3,-2,1,2,2),3,2)
+print(A)
+print("-----------------")
+#Mendefinisikan matriks B
+B <- matrix(c(1,4,-2,1,2,1),3,2)
+print(B)
+```
+**Perkalian Matriks dengan skalar**
+```{r}
+C=A*2
+C
+```
+**Penjumlahan dan Pengurangan Matriks**
+```{r}
+D=A+B
+D
+E=A-B
+E
+```
+**Perkalian Matriks**
+Ingat, untuk melakukan perkalian matrik, aturan perkalian matriks harus dipenuhi.
+```{r}
+F <- matrix(c(2,-2,1,2,3,1),2,3)
+G <- A%*%F
+G
+```
+**Transpose Matriks**
+```{r}
+H=t(A)
+H
+
+```
+## Matriks - Matriks Umum
+
+**Matriks Satuan**
+```{r}
+U<-matrix(1,  #Elemen satuan untuk matriks
+          5,  #Jumlah baris
+          5)  #Jumlah kolom
+U
+```
+**Matriks Nol**
+```{r}
+Z<-matrix(0,  #Elemen satuan untuk matriks
+          3,  #Jumlah baris
+          3)  #Jumlah kolom
+Z
+```
+**Matriks Diagonal**
+```{r}
+#Mendefinisikan matriks S
+S <- matrix(c(2,3,-2,1,2,2,4,2,3),3,3)
+print(S)
+#Mengambil elemen diagonal matriks S
+D1<- diag(S)
+print(D1)
+#Membuat matriks diagonal D1
+D1 <- diag(diag(S))
+D1
+```
+**Matriks Identitas**
+```{r}
+I <- diag(c(1,1,1))
+I
+```
+**Matriks Simetri**
+```{r}
+#Mendefinisikan matriks simetri K
+K <- matrix(c(2,1,5,1,3,4,5,4,-2),3,3)
+print(K)
+#Transpose matriks K
+KT <- t(K)
+print(KT)
+#Hasilnya adalah matriks K=KT (Simetri)
+
+```
+## Aljabar Linear Matriks
+
+**Invers Matriks**
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(4,4,-2,2,6,2,2,8,4),3,3)
+print(A)
+
+#Menghitung inverse matriks A
+AI <- solve(A)
+print(AI)
+
+#Menunjukkan bahwa AI adalah invers dari A
+print(A %*% AI) #Hasilnya matriks Identitas
+
+print(A %*% AI) #Hasilnya matriks Identitas
+```
+**Determinan Matriks**
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(4,4,-2,2,6,2,2,8,4),3,3)
+print(A)
+
+#Menghitung determinan matriks A
+d <- det(A)
+print(d)
+
+```
+
+**Rank Matriks**
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(4,4,-2,2,6,2,2,8,4),3,3)
+print(A)
+
+#Menghitung rank matriks A
+matA <- qr(A)
+print(matA$rank)
+
+```
+
+## Baris dan Kolom pada Matriks
+**Jumlah Baris dan Kolom Matriks**
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(3,5,2)
+print(A)
+
+#Menghitung ukuran matriks A
+ukuran_A<-dim(A)
+print(ukuran_A)
+
+#Menghitung jumlah baris matriks A
+baris_A<-nrow(A)
+print(baris_A)
+
+#Menghitung jumlah kolom matriks A
+kolom_A<-ncol(A)
+print(kolom_A)
+
+```
+**Menghitung elemen Baris dan Kolom Matriks**
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(2,3,-2,1,2,2),3,2)
+print(A)
+#Menghitung rata-rata kolom matriks A
+cm=colMeans(A)
+print(cm)
+#Menghitung rata-rata baris matriks A
+rm=rowMeans(A)
+print(rm)
+#Menghitung rata-rata elemen matriks A
+em=mean(A)
+print(em)
+
+```
+## Gabungan Matriks
+**Gabungan Horizontal**
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(2,3,-2,1,2,2),3,2)
+print(A)
+
+#Mendefinisikan matriks B
+B <- matrix(c(1,3,2,1,4,2),3,2)
+print(B)
+
+#Menggabungkan matriks A dan B secara Horizontal
+C <- cbind(A,B)
+print(C)
+```
+**Gabungan Vertikal(Appending)**
+```{r}
+#Mendefinisikan matriks A
+A <- matrix(c(2,3,-2,1,2,2),3,2)
+print(A)
+
+#Mendefinisikan matriks B
+B <- matrix(c(1,3,2,1,4,2),3,2)
+print(B)
+
+#Menggabungkan matriks A dan B secara Vertikal
+C <- rbind(A,B)
+print(C)
+```
+
+
+### Referensi
+
+[http://www.philender.com/](http://www.philender.com/courses/multivariate/notes/matr.html#:~:text=R%20is%20an%20open%2Dsource,freely%20downloaded%20over%20the%20Internet.)

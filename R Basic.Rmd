@@ -1,0 +1,210 @@
+---
+title: "R Basics"
+author: "Pusat Studi Data Sains (PSDS) Program Studi Matematika UAD"
+date: "1/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Mengenal Software R
+
+Assalamualaikum warahmatullahi wabarakatuh, Robbi Zidni Ilma Warzuqni Fahma, Aamiin
+Semoga Allah senantiasa memberkahi kita, dan menganugerahkan kepada kita, Ilmu yang bermanfaat. Dalam modul ini, teman-teman akan belajar tentang pengenalan R. Penulis mengasumsikan bahwa temen-temen sudah terbiasa menggunakan software untuk melakukan proses penghitungan. Ya, memang sesederhana itu, R itu cuma seperti kalkulator saja. Tapi lebih advance. 
+Buat temen-temen yang sudah mengenal Matlab, akan jauh lebih mudah. Modul ini disusun untuk temen-temen matematikawan yaa. So lets begin!
+
+## Apa itu R?
+R adalah bahasa pemrograman dan perangkat lunak untuk analisis statistika dan grafik. R dibuat oleh Ross Ihaka dan Robert Gentleman di Universitas Auckland, Selandia Baru, dan kini dikembangkan oleh R Development Core Team, di mana Chambers merupakan anggotanya. R mendapatkan namanya dari dua orang  pembuatnya (Robert Gentleman dan Ross Ihaka)
+
+Bahasa R kini menjadi standar de facto di antara statistikawan digunakan untuk pengembangan perangkat lunak statistika, serta digunakan secara luas untuk pengembangan perangkat lunak statistika dan analisis data
+
+## R dan R Studio
+R adalah bahasa pemrogramannya. Software R adalah software untuk menggunakan bahasa R. Software paling sederhana untuk bahasa pemrograman R adalah R console. Ini hanya berupa satu buah windows untuk coding input dan sebuah windows untuk output. R Studio membuat R semakin mudah digunakan. R Studio merupakan software dengan antarmuka yang jauh lebih lengkap. Untuk selengkapnya coba kunjungi link berikut:
+
+[Antar Muka R Studio](https://geospasialis.com/cara-menggunakan-rstudio/)
+
+
+## Mulai Coding Pertamamu
+Pertama, temen-temen akan mencoba pengalaman melakukan coding dengan R. Untuk matematikawan, kita mulai dengan operasi matematika sederhana.
+
+
+### Operasi Matematika Sederhana
+
+```{r}
+# Setelah tanda Pagar, Kode tidak dijalankan, Ini hanya pagar
+# Boleh diedit kok, beneran
+6 + 2 # => 8
+7 - 8 # => -1
+9 / 2 # => 4.5
+6 * 2 # => 12
+
+```
+### Fungsi Aritmatika Dasar
+* Fungsi Logaritma dan Eksponensial : log2(x), log10(x), exp(x)
+* Fungsi Trigonometri: cos(x), sin(x), tan(x), acos(x), asin(x), atan(x)
+* Fungsi Matematika Lainnya: abs(x): absolute value; sqrt(x): square root.
+
+```{r}
+log10(10) # => 1
+abs(-3)   # => 3
+sqrt(9)   # => 3
+```
+
+### Variabel
+Dalam matematika, temen-temen pasti atu donk Variabel. Nah untuk membuat, atau menuliskan variable maka ditulis dengan :
+```
+"nama_variabel" <- nilai
+```
+Isi variabel biasanya numeric, tapi bisa juga berupa character, string, atau bahkan tipe data lainnya.
+
+```{r}
+Harga_apple <- 2 #Membuat Variabel
+Harga_apple      #Menampilkan Nilai Variabel
+
+Rasulullah <- "Muhammad" #Membuat Variabel
+Rasulullah               #Menampilkan Nilai Variabel
+
+#Coba dihapus tanda pagar di bawah ini!!!
+
+#2ikan <- 5000 #Harusnya Error, Kenapa yaaa?
+```
+### Tipe Data Dasar Pada R
+
+* numeric 
+* character
+* logical
+
+```{r}
+my_age <- 28                   # Variabel Numeric
+my_age
+my_name <- "Nicolas"           # Variabel Character
+my_name
+is_datascientist <- TRUE       # Variabel Logical (TRUE/FALSE)
+is_datascientist
+```
+### Vektor pada R
+
+Vektor: kombinasi beberapa nilai (numerik, karakter, atau logika)
+
+* Fungsi untuk membuat/menggabungkan vector: c() 
+* Untuk data hilang, ada dua jenis: NA (not available) and NaN (not a number)
+* Mengambil sebagian element vector: my_vector[i] untuk mengambil element ke-i
+* Fungsi-sungi kalkulasi vektor: max(x), min(x), range(x), length(x), sum(x), mean(x), prod(x), sd(x), var(x), sort(x)
+
+```{r}
+# Membuat Vektor Numeric
+friend_ages     <- c(27, 25, 29, 26)
+mean(friend_ages) # => 26.75
+max(friend_ages)  # => 29
+length(friend_ages) # => 4
+
+# Membuat Vektor Charakter
+nama_mahasiswa   <- c("Budi", "Cahyadi", "Dedi")
+# Mengakses Elemen Vektor
+nama_mahasiswa
+nama_mahasiswa[2]
+nama_mahasiswa[2:3]
+```
+### Matriks Pada R
+* Matriks adalah susunan bilangan menurut baris dan kolom. 
+* Matriks pada R harus merupakan kombinasi beberapa vektor dengan tipe yang sama (numerik, karakter atau logika).
+
+*Fungsi-fungsi terkait matriks pada R: matrix(), cbind(), rbind(), rownames(), colnames()
+
+*Mengecek dan mengkonversi: is.matrix(), as.matrix()
+*Transpose  matriks: t()
+*Melihat dimensi/ukuran matriks: ncol(), nrow(), dim()
+*Mengambil subset matriks: my_data[row, col]
+*Fungsi operasi pada matriks: rowSums(), colSums(), rowMeans(), colMeans(), apply()
+
+```{r}
+A <- matrix(c(1,2,3,4), # Isi Matriks
+            nrow = 2,   # Jumlah Baris
+            ncol = 2,   # Jumlah Kolom
+            byrow = TRUE) # Dibuat berdasarkan Baris
+print("matriks A")
+A                       # Menampilkan matriks
+
+B <- matrix(c(1,2,3,4), # Isi Matriks
+            nrow = 2,   # Jumlah Baris
+            ncol = 2,   # Jumlah Kolom
+            byrow = FALSE) # Dibuat berdasarkan Kolom
+print("matriks B")
+B
+
+
+C <- matrix(c(1,2,3,4), # Isi Matriks
+            nrow = 5,   # Jumlah Baris
+            ncol = 4,   # Jumlah Kolom
+            byrow = TRUE) # Dibuat berdasarkan Baris
+print("matriks C")
+C                       # Menampilkan matriks
+
+D <- matrix(c(1,2,3,4), # Isi Matriks
+            nrow = 4,   # Jumlah Baris
+            ncol = 5,   # Jumlah Kolom
+            byrow = FALSE) # Dibuat berdasarkan Kolom
+print("matriks D")
+D
+
+
+```
+### Faktor pada R
+* Faktor: mengelompokkan variabel dalam data(level)
+* Fungsi untuk membuat faktor: factor(), levels()
+* FUngsi untuk Check dan Konversi: is.factor(x), as.factor(x)
+* Operasi pada faktor:summary(), table(), tapply()
+
+```{r}
+# Membuat faktor
+friend_groups <- factor(c("grp1", "grp2", "grp1", "grp2"))
+levels(friend_groups) # => "grp1", "grp2"
+# menghitung rata-rata
+friend_ages <- c(27, 25, 29, 26)
+tapply(friend_ages, friend_groups, mean)
+
+```
+### Data Frame pada R
+* Data Frame: seperti matriks tetapi dapat memiliki kolom dengan tipe berbeda
+* Fungsi untuk membuat data frame: data.frame()
+* FUngsi untuk Check dan Konversi: is.data.frame(), as.data.frame()
+* Transpose  data frame: t()
+* Subset  data frame: my_data[row, col], subset(), attach() and detach()
+* Mengekstend data frame: $, cbind(), rbind()
+* Fungsi operasi pada data frame numerik: rowSums(), colSums(), rowMeans(), colMeans(), apply()
+
+```{r}
+nama <- c("Ana","Banu", "Cici", "Dido", "Erik")
+tahun <- c(1992,1995,1993,1999,1994)
+lahir <- data.frame(nama, tahun)
+lahir
+
+summary(lahir)
+```
+
+### Lists pada R
+* List : kumpulan objek, yang dapat berupa vektor, matriks, data frame,
+* Fungsi untuk membuat List: list()
+
+```{r}
+my_family <- list(
+  mother = "Veronique", 
+  father = "Michel",
+  sisters = c("Alicia", "Monica"),
+  sister_age = c(12, 22)
+  )
+# Print
+my_family
+# Subset
+my_family$mother
+```
+
+### Referensi
+
+[http://www.sthda.com/english/wiki/r-basics-quick-and-easy](http://www.sthda.com/english/wiki/r-basics-quick-and-easy)
+
+[https://thinkstudioo.blogspot.com/2017/12/data-frame-pada-bahasa-r.html](https://thinkstudioo.blogspot.com/2017/12/data-frame-pada-bahasa-r.html)
+
+[https://id.wikipedia.org/wiki/R_(bahasa_pemrograman)](https://id.wikipedia.org/wiki/R_(bahasa_pemrograman))

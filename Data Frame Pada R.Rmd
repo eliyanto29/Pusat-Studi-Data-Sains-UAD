@@ -1,0 +1,221 @@
+---
+title: "DataFrame"
+author: "Pusat Studi Data Sains (PSDS) Program Studi Matematika UAD"
+date: "1/6/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data Frame pada R
+Assalamualaikum warahmatullahi wabarakatuh, Robbi Zidni Ilma Warzuqni Fahma, Aamiin
+Semoga Allah senantiasa memberkahi kita, dan menganugerahkan kepada kita, Ilmu yang bermanfaat. Dalam modul ini, teman-teman akan belajar Data Frame pada R.
+
+Berbeda dengan matriks yang elemen-elemennya harus memiliki type data yang sama, data frame dapat berisikan elemen-elemen dengan type data yang berbeda. Dalam kehidupan sehari-hari kita akan lebih banyak menggunakan data frame daripada matriks. Data frame lebih relevan dengan banyak data yang ada.
+
+
+## Membuat Data Frame
+
+
+**Membuat DataFrame**
+```{r}
+nama <- c("Ana","Banu", "Cici", "Dido", "Erik")
+tahun <- c(1992,1995,1993,1999,1994)
+lahir <- data.frame(nama, tahun)
+lahir
+```
+
+**Memanggil DataFrame bawaan**
+```{r}
+mtcars 
+```
+## Mengenal Data Frame
+```{r}
+#Melihat profil Data Frame
+str(mtcars)
+#Statistik Data Numerik pada Data Frame
+summary(mtcars)
+
+```
+## Mengakses Data Frame
+```{r}
+#Mendefinisikan Data Frame df
+df<-mtcars
+print(df)
+#Mengakses kolom dengan nama kolom
+pilih_kolom<-df$mpg
+print(pilih_kolom)
+#Mengakses kolom dengan indeks baris
+pilih_baris<-df[1:5]
+print(pilih_baris)
+#Mengakses kolom dengan indeks baris dan kolom
+pilih_df<-df[1:5, 2:3]
+print(pilih_df)
+#Mengakses data dengan kriteria tertentu [misal cyl=6] (tunggal)
+pilih_df1<-df[df[, "cyl"]==6,]
+print(pilih_df1)
+#Mengakses data dengan kriteria tertentu [misal cyl=6 dan disp=160.0] (lebih dari satu)
+pilih_df2<-df[df[, "cyl"]==6 & df[, "disp"]==160.0,]
+print(pilih_df2)
+#Mengakses data dengan kriteria tertentu dan untukkolom tertentu
+pilih_df3<-df[df[, "cyl"]==6 & df[, "disp"]==160.0, "wt"]
+print(pilih_df3)
+```
+
+## Memodifikasi DataFrame
+**Menambah Kolom Baru**
+```{r}
+# Membuat Data Frame.
+emp.data <- data.frame(
+   emp_id = c (1:5), 
+   emp_name = c("Ricki","Daan","Megi","Ryan","Budi"),
+   salary = c(623.3,515.2,611.0,729.0,843.25), 
+   
+   start_date = as.Date(c("2012-01-01", "2013-09-23", "2014-11-15", "2014-05-11",
+      "2015-03-27")),
+   stringsAsFactors = FALSE
+)
+
+# Menambah kolom Departemen.
+emp.data$dept <- c("IT","Operations","IT","HR","Finance")
+v <- emp.data
+print(v)
+```
+
+**Menambah Baris Baru**
+```{r}
+# Membuat Data Frame.
+emp.data <- data.frame(
+   emp_id = c (1:5), 
+   emp_name = c("Ricki","Daan","Megi","Ryan","Budi"),
+   salary = c(623.3,515.2,611.0,729.0,843.25), 
+   
+   start_date = as.Date(c("2012-01-01", "2013-09-23", "2014-11-15", "2014-05-11",
+      "2015-03-27")),
+   dept = c("IT","Operations","IT","HR","Finance"),
+   stringsAsFactors = FALSE
+)
+# Membuat Data Frame kedua
+emp.newdata <- 	data.frame(
+   emp_id = c (6:8), 
+   emp_name = c("Rasmi","Pranab","Tusar"),
+   salary = c(578.0,722.5,632.8), 
+   start_date = as.Date(c("2013-05-21","2013-07-30","2014-06-17")),
+   dept = c("IT","Operations","Finance"),
+   stringsAsFactors = FALSE
+)
+
+# Menambah baris Data.
+emp.finaldata <- rbind(emp.data,emp.newdata)
+print(emp.finaldata)
+```
+**Mengurutkan Isi DataFrame**
+```{}
+# Membuat Data Frame.
+df<-mtcars
+print(df)
+# Urutkan berdasar kolom mpg
+newdata1 <- df[order(mpg),]
+print(newdata1)
+# Urutkan berdasar kolom mpg and cyl
+newdata2 <- df[order(mpg, cyl),]
+print(newdata2)
+#Urutkan berdasar kolom mpg (menaik) and cyl (menurun)
+newdata3 <- df[order(mpg, -cyl),]
+print(newdata3)
+```
+
+## Menggabungkan Dua Data Frame
+**Syntax untuk menggabungkan dua Data Frame**
+```
+merge(x, y, by.x = x, by.y = y)
+Argumen:
+-x: Data Frame Utama
+-y: Data Frame yang akan digabungkan
+-by.x: Kolom yang digunakan untuk menggabungkan dalam data frame x. Kolom x untuk digabungkan
+-by.y: Kolom yang digunakan untuk menggabungkan dalam data frame y. Kolom y untuk digabungkan
+
+```
+**Contoh**
+```{r}
+
+# Data Frame Utama {Producers}
+producers <- data.frame(   
+    surname =  c("Spielberg","Scorsese","Hitchcock","Tarantino","Polanski"),    
+    nationality = c("US","US","UK","US","Poland"),    
+    stringsAsFactors=FALSE)
+
+# Data Frame yang akan digabungkan
+movies <- data.frame(    
+    surname = c("Spielberg",
+		"Scorsese",
+                "Hitchcock",
+              	"Hitchcock",
+                "Spielberg",
+                "Tarantino",
+                "Polanski"),    
+    title = c("Super 8",
+    		"Taxi Driver",
+    		"Psycho",
+    		"North by Northwest",
+    		"Catch Me If You Can",
+    		"Reservoir Dogs","Chinatown"),                
+     		stringsAsFactors=FALSE)
+
+# Menggabungkan Dua Data Frame 
+m1 <- merge(producers, movies, by.x = "surname")
+m1
+dim(m1)
+
+# Mengganti nama kolom "movies" 
+colnames(movies)[colnames(movies) == 'surname'] <- 'name'
+
+# Menggabungkan dengan kata kunci lainnya
+m2 <- merge(producers, movies, by.x = "surname", by.y = "name")
+head(m2)
+
+# Menambah data producers
+add_producer <-  c('Lucas', 'US')
+producers <- rbind(producers, add_producer)
+
+# Melakukan gabungan parsial
+m3 <-merge(producers, movies, by.x = "surname", by.y = "name", all.x = TRUE)
+m3
+
+```
+
+### Referensi
+
+[http://www.r-tutor.com/r-introduction/data-frame](http://www.r-tutor.com/r-introduction/data-frame)
+
+[https://www.tutorialspoint.com/r/r_data_frames.htm](https://www.tutorialspoint.com/r/r_data_frames.htm)
+
+[https://www.guru99.com/r-merge-data-frames.html](https://www.guru99.com/r-merge-data-frames.html)
+
+[https://agungspratama.wordpress.com/2018/07/10/data-frame-pada-r/](https://agungspratama.wordpress.com/2018/07/10/data-frame-pada-r/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

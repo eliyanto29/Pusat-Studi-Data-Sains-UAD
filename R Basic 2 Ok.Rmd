@@ -1,0 +1,293 @@
+---
+title: "R Basics 2"
+author: "Pusat Studi Data Sains (PSDS) Program Studi Matematika UAD"
+date: "1/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Fungsi pada R
+Assalamualaikum warahmatullahi wabarakatuh, Robbi Zidni Ilma Warzuqni Fahma, Aamiin
+Semoga Allah senantiasa memberkahi kita, dan menganugerahkan kepada kita, Ilmu yang bermanfaat. Dalam modul ini, teman-teman akan belajar melanjutkan tentang pengenalan R atau R Basics. Pada modul ini temen-temen akan belajar tentang fungsi, percabangan, dan perulangan pada R.
+
+Fungsi adalah sekumpulan pernyataan yang disusun untuk melakukan tugas tertentu. R memiliki banyak fungsi built-in(bawaan) serta kita dapat membuat fungsi sendiri.
+
+Di pemrograman R, fungsi adalah suatu objek, sehingga  R dapat meneruskan kontrol ke fungsi tersebut, bersama dengan argumen yang mungkin diperlukan agar fungsi tersebut menyelesaikan sebuah tindakan.
+
+Fungsi tersebut pada gilirannya melakukan tugasnya dan mengembalikan kontrol ke interpreter serta hasil output apa pun yang mungkin disimpan di objek(variable) lain.
+
+
+## Membuat Fungsi di R?
+
+Sintaks dasar definisi fungsi R adalah sebagai berikut -
+```
+nama_fungsi <- function(argumen_1, argumen_2, ...) {
+   Fungsi yang kita inginkan 
+}
+```
+**Komponen Fungsi**
+
+Suatu fungsi pada R terdiri dari bagian-bagian berikut:
+
+* Nama Fungsi : Untuk memberi nama yang unik untuk sebuah fungsi. 
+
+* Argumen - Argumen:  Merupakan tempat untuk memberikan pernyataan/input. Sifatnya opsional, artinya suatu fungsi juga boleh tanpa memiliki argumen. Argumen-argumen ini juga dapat memiliki nilai default.
+
+* Badan Fungsi: Badan fungsi berisi kumpulan pernyataan yang mendefinisikan fungsi itu sendiri. Misal fungsi kuadrat=x^2, dengan input/argumen x.
+
+* Return Value : Nilai keluaran dari suatu fungsi adalah ekspresi terakhir dalam badan fungsi yang akan dievaluasi.
+
+**Menggunakan Fungsi Built-in/Bawaan R**
+
+Contoh sederhana dari fungsi built-in adalah seq (), mean (), max (), sum (x) dan paste (...) dll. 
+
+```{r}
+# Membuat barisan dari 20 sampai 40
+print(seq(20,40))
+
+# Menghitung rata-rata barisan bilangan 20 sampai 40.
+print(mean(20:40))
+
+# Menghitung jumlahan barisan bilangan 20 sampai 40.
+print(sum(20:40))
+
+```
+
+**Membuat Fungsi Sendiri:**
+
+```{r}
+#Mendefinisikan fungsi yang menghasilkan bilangan kuadrat
+#Misal: 
+#Input = 3
+#Output = 9
+
+fungsi_kuadrat <- function(a) {    #fungsi_kuadrat: nama fungsi, a : Argumen
+  b <- a^2                         #badan fungsi
+  print(b)                         #return value
+}	
+
+#Memanggil dan menggunakan fungsi 
+fungsi_kuadrat(6)
+```
+
+**Membuat Fungsi Tanpa Argumen:**
+
+```{r}
+#Mendefinisikan fungsi yang menghasilkan bilangan kuadrat
+#Misal: 
+#Input = 3
+#Output = 9
+
+fungsi_kuadrat <- function() {
+  b <- 6^2
+  print(b)
+}	
+
+#Memanggil dan menggunakan fungsi 
+fungsi_kuadrat()
+
+```
+**Membuat Fungsi Dengan Argumen Lebih Dari 1:**
+
+```{r}
+#Mendefinisikan fungsi yang menghasilkan bilangan kuadrat
+#Misal: 
+#Input = 3
+#Output = 9
+
+fungsi_baru <- function(a,b,c) {
+   hasil <- a * b + c
+   print(hasil)
+}	
+
+#Memanggil dan menggunakan fungsi berdasarkan posisi argumen
+fungsi_baru(5,3,11)
+
+#Memanggil dan menggunakan fungsi berdasarkan nama argumen
+fungsi_baru(c=11,b=3,a=5)
+
+```
+**Membuat Fungsi Dengan Argumen Default:**
+```{r}
+#Mendefinisikan fungsi yang menghasilkan bilangan kuadrat
+#Misal: 
+#Input = 3
+#Output = 9
+
+fungsi_baru <- function(a=4,b=1,c=0) {
+   hasil <- a * b + c
+   print(hasil)
+}	
+
+#Memanggil dan menggunakan fungsi tanpa argumen
+fungsi_baru()
+
+#Memanggil dan menggunakan fungsi dengan mengisi argumen
+fungsi_baru(c=11,b=3,a=5)
+
+```
+
+**Fungsi tidak berjalan jika:**
+
+```{r}
+#Mendefinisikan fungsi yang menghasilkan bilangan kuadrat
+#Misal: 
+#Input = 3
+#Output = 9
+
+fungsi_baru <- function(a,b,c) {
+   hasil <- a * b + c
+   print(hasil)
+}	
+#Memanggil dan menggunakan fungsi dengan mengisi argumen yang tidak lengkap, coba hapus nilai c=0
+fungsi_baru(a=11,b=3,c=0)
+```
+```
+#Memanggil dan menggunakan fungsi dengan mengisi argumen yang tidak lengkap
+fungsi_baru(c=11,b=3)
+
+Output:
+  Error in fungsi_baru(c = 11, b = 3) : 
+  argument "a" is missing, with no default
+
+```
+# Percabangan pada R
+Percabangan adalah pernyatan if dan else dalam pemrograman. Pernyataan ini memungkinkan kita untuk memberikan syarat untuk sebuah perintah dijalankan atau tidak. Atau dengan kata lan mengambil keputusan.
+
+**Syntax if statement pada R:**
+
+```
+if (kondisi) {
+pernyataan
+}
+
+```
+Jika kondisi yang dimaksud benar(TRUE), maka pernyataan akan dieksekusi. Namun jika tidak, maka pernyataan tidak akan dijalankan.
+
+```{r}
+x <- 5
+if(x > 0){
+print("Bilangan Positif")
+}
+```
+**Syntax if else statement pada R:**
+```
+if (kondisi) {
+pernyataan 1
+} else  {
+pernyataan 2
+}
+
+```
+Jika kondisi yang dimaksud benar(TRUE), maka pernyataan 1 akan dieksekusi. Namun jika tidak, maka pernyataan 2 yang akan dijalankan.
+
+```{r}
+x <- -29
+if(x > 0){
+print("Bilangan Non-Negative")
+} else {
+print("Bilangan Negatif")
+}
+
+```
+Menulis percabangan dengan satu baris perintah
+
+```{r}
+x=12
+if(x > 0) print("Bilangan Non-Negative") else print("Bilangan -Negative")
+```
+**Syntax if else statement banyak pada R:**
+
+```{r}
+x <- 0
+if(x > 0){
+  print("Bilangan Negative")
+} else if(x==0){
+  print("Bilangan Nol")
+} else {
+  print("Bilangan Positif")
+}
+```
+**Syntax if else statement bersarang(if di dalam if) pada R:**
+```{r}
+x <- 0
+if(x >= 0){
+  if (x/2==0){                          #If di dalam If (x>0)
+    print("Bilangan Non-Negatif Genap")
+  } else {
+    print("Bilangan Non-Negatif Ganjil")
+  }
+} else {
+  print("Bilangan Negatif")
+}
+  
+```
+
+# For Loop(Perulangan) pada R
+Perulangan dilakukan ketika kita ingin  melakukan hal yang berulang entah itu ada penambahan fungsi atau hanya sebuah perulangan. Biasa sering digunakan dalah sebuah program. Ada beberapa statement pada perulangan diantaranya for, while, dan repeat. 
+
+**Syntax for loop pada R:**
+Perluangan for pada R adalah melakukan perulangan suatu fungsi atau proses pada objek-objek di dalam suatu barisan. Misal kita memiliki barisan [1,2,3]. Kita ingin menghasilkan bilangan kuadrat untuk masing-masing elemen pada barisan tersebut. Maka kita peroleh [1^2, 2^2, 3^2] hasilnya [1, 4, 9]
+
+```
+for(variable dalam barisan){
+
+}
+
+```
+Contoh kita akan melakukan perulangan fungsi print pada barisan bilangan 1 sampai 10:
+```{r}
+for (i in 1:10){
+  print(i)
+}
+
+```
+**Syntax while loop pada R:**
+Berbeda dengan for, pada perulangan while kita butuh nilai awal. Kemudian dengan kondisi tertentu pada variabel target, suatu perintah daapat terus berjalan. Jika kondisi sudah tidak dipenuhi perintha berhenti dijalankan.
+```
+inisialisasi nilai variabel 
+
+while(kondisi){
+  mengubah nilai variabel
+}
+
+```
+Misalkan kita akan melakukan fungsi print jika bilangan x tidak lebih dari 5:
+```{r}
+x=1
+
+while(x<=5){  #Kondisi selama x tidak lebih dari 5
+  print(x)    #print bilangan
+  x=x+1       #mengubah nilai
+}
+
+```
+**Syntax repeat loop pada R:**
+Perulangan repeat pada R dibuat khusus untuk melakukan perintah berulang-ulang tanpa harus membentuk suatu barisan seperti pada perulangan for.
+```
+inisialisasi variabel
+repeat{
+
+}
+```
+Contoh kita akan melakukan print bilangan i sampai i terbaru adalah sama dengan 5:
+```{r}
+i=1
+repeat{
+  print(i)
+  if(i==5) {break()}
+  i=i+1
+}
+
+```
+
+### Referensi
+
+[www.tutorialspoint.com](https://www.tutorialspoint.com/r/r_functions.htm#:~:text=In%20R%2C%20a%20function%20is,be%20stored%20in%20other%20objects.y)
+
+[www.datamentor.io](https://www.datamentor.io/r-programming/if-else-statement/)
+
+[thinkstudioo.blogspot.com](https://thinkstudioo.blogspot.com/2018/03/perulangan-dalam-bahasa-r.html)
