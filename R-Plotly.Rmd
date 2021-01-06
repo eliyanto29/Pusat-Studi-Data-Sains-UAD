@@ -1,0 +1,296 @@
+---
+title: "Visualisasi Plotly R"
+author: "Pusat Studi Data Sains (PSDS) Program Studi Matematika UAD"
+date: "1/6/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Pengenalan Plotly
+
+Plotly adalah salah satu modul untuk visualisasi pada python dan R. Package ini memiliki kelebihan untuk membuat visualisasi data yang interaktif. Informasi lengkap mengenai package ini bisa diperoleh di link di bawah ini:
+
+[https://plotly.com/r](https://plotly.com/r/)
+
+Package lain untuk visualisasi yang biasa digunakan adalah ggplot dan ggplot2
+
+## Scatter Plot
+Scatter Plot adalah plot berupa titik-titik data dalam dimensi 2 ataupun 3. Tujuan melakukan plot dalam bentuk ini adalah melihat sebaran data, melihat pola-pola sebaran data dalam bentuk kelompok, bisa juga untuk melihat pola keterkaitan(korelasi), ataupun kedekatan antar titik data. Pada modul ini kita akan mempelajari visualisasi data untuk 2 dimensi dulu.
+
+Secara umum, susunan sytax untuk Scater Plot pada Modul PlotLy adalah sebagai berikut:
+
+**Visualisasi data 2 vektor (vektor sumbu x dan vektor sumbu y)**
+```{r}
+library(plotly)
+#Membuat scatter plot 
+fig <- plot_ly(x = ~c(1,2,3,4,5,6,7,8),           #Sumbu x
+               y = ~c(10,29,34,32,56,45,20,34))   #Sumbu y
+#Menambah judul dan annotasi
+fig <- fig %>% layout(title = 'Scatter Plot',     #Judul gambar
+         xaxis = list(title = 'X',                #Label sumbu x
+                      zeroline = TRUE,
+                      range = c(0, 10)),
+         yaxis = list(title = 'Y',                #Label sumbu y
+                      range = c(0,50)))
+#Menampilkan hasil visualisasi
+fig
+```
+**Visualisasi data 2 vektor dalam DataFrame**
+```{r}
+library(plotly)
+#Membuat scatter plot 
+fig <- plot_ly(data = iris,               #Data Frame yang digunakan
+               x = ~Sepal.Length,         #Sumbu x
+               y = ~Petal.Length)         #Sumbu y
+#Menambah judul dan annotasi
+fig <- fig %>% layout(title = 'Iris Plot',     #Judul gambar
+         xaxis = list(title = 'Sepal Length',  #Label sumbu x
+                      zeroline = TRUE),
+         yaxis = list(title = 'Petal Length'))  #Label sumbu y
+#Menampilkan hasil visualisasi
+fig
+```
+**Scatter Plot Dengan Kategori Berwarna**
+```{r}
+library(plotly)
+#Membuat Scatter Plot
+fig <- plot_ly(data = iris,                    #Data Frame
+               x = ~Sepal.Length,              #Sumbu x
+               y = ~Petal.Length,              #Sumbu y
+               color = ~Species)               #Category
+#Menambah judul dan annotasi
+fig <- fig %>% layout(title = 'Iris Plot',     #Judul gambar
+         xaxis = list(title = 'Sepal Length',  #Label sumbu x
+                      zeroline = TRUE),
+         yaxis = list(title = 'Petal Length')) #Label sumbu y
+#Menamilkan hasil visualisasi
+fig
+
+```
+## Line Plot
+Line Plot atau Diagram garis digunakan untuk mevisualisasikan data dalam bentuk garis. Tujuannya adalah untuk melihat pergerakan sebuah data apakah menaik atau menurun.
+**Line Plot Dasar**
+```{r}
+library(plotly)
+#Menyiapkan Data
+x <- c(1:100)
+random_y <- rnorm(100, mean = 0)
+data <- data.frame(x, random_y)
+#Membuat line plot
+fig <- plot_ly(data, x = ~x, y = ~random_y, type = 'scatter', mode = 'lines')
+
+#Menambah judul dan annotasi
+fig <- fig %>% layout(title = 'Line Plot',     #Judul gambar
+         xaxis = list(title = 'X',             #Label sumbu x
+                      zeroline = TRUE),
+         yaxis = list(title = 'Y'))            #Label sumbu y
+#Menampilkan hasil visualisasi
+fig
+```
+
+**Line Plot COVID-19 Indonesia **
+```{r}
+library(httr)
+library(ggplot2)
+library(tidyr)
+library(lubridate)
+library(dplyr)
+library(rjson)
+library(leaflet)
+library(RCurl)
+library(plotly)
+
+### Olah Data Line Plot
+
+url_use <- GET("https://data.covid19.go.id/public/api/update.json")
+data_raw <- content(url_use, as = "parsed", simplifyVector = TRUE)
+tanggal_upadate<-data_raw$update$penambahan$created
+tanggal_upadate = as.Date(tanggal_upadate)
+tanggal_u <- day(tanggal_upadate)
+bulan_u <- month(tanggal_upadate)
+tahun_u <- year(tanggal_upadate)
+cov_id_update <- data_raw$update 
+lapply(cov_id_update, names)
+tanggal   <- cov_id_update$harian$key
+tanggal = as.POSIXct(tanggal / 1000, origin = "1970-01-01")
+tanggal = as.Date(tanggal)
+positif   <- cov_id_update$harian$jumlah_positif
+dirawat   <- cov_id_update$harian$jumlah_dirawat
+meninggal <- cov_id_update$harian$jumlah_meninggal
+sembuh    <- cov_id_update$harian$jumlah_sembuh
+positif_kum   <- cov_id_update$harian$jumlah_positif_kum
+dirawat_kum   <- cov_id_update$harian$jumlah_dirawat_kum
+meninggal_kum <- cov_id_update$harian$jumlah_meninggal_kum
+sembuh_kum    <- cov_id_update$harian$jumlah_sembuh_kum
+
+
+dataframe <- data.frame(tanggal, 
+                        positif, 
+                        meninggal, 
+                        sembuh,
+                        positif_kum, 
+                        sembuh_kum, 
+                        meninggal_kum)
+
+names(dataframe)[names(dataframe) == "value"]   <- "KASUS"
+names(dataframe)[names(dataframe) == "value.1"] <- "MENINGGAL"
+names(dataframe)[names(dataframe) == "value.2"] <- "SEMBUH"
+names(dataframe)[names(dataframe) == "value.3"] <- "AKUMULASI_KASUS"
+names(dataframe)[names(dataframe) == "value.4"] <- "AKUMULASI_SEMBUH"
+names(dataframe)[names(dataframe) == "value.5"] <- "AKUMULASI_MENINGGAL"
+
+#print(dataframe)
+
+new_dataframe <-
+  dataframe[,1:4]%>% 
+  rename(
+    kasus_baru = KASUS,
+    meninggal = MENINGGAL,
+    sembuh = SEMBUH
+  ) %>% 
+  mutate(
+    tanggal = as.Date(tanggal)
+  )
+#print(new_dataframe)
+
+akumulasi <- 
+  new_dataframe%>% 
+  transmute(
+    tanggal,
+    akumulasi_kasus_aktif = cumsum(kasus_baru)- cumsum(sembuh) - cumsum(meninggal),
+    akumulasi_sembuh = cumsum(sembuh),
+    akumulasi_meninggal = cumsum(meninggal)
+  )
+#print(akumulasi)
+
+bulanan <- new_dataframe %>% 
+  count(
+    tahun = year(tanggal),
+    bulan_ke = month(tanggal),
+    wt = kasus_baru,
+    name="Kasus Baru"
+  )
+#print(bulanan)
+```
+```{r}
+fig <- plot_ly(akumulasi, x = ~tanggal, y = ~akumulasi_kasus_aktif,
+                   name="Akumulasi Kasus Aktif",
+                   line = list(color = 'rgb(22, 96, 167)'), 
+                   marker = list(color = 'rgb(22, 96, 167)'),
+                   type = 'scatter', mode = 'lines+markers')
+fig <- fig %>% add_trace(y = ~akumulasi_sembuh,
+                         name = "Akumulasi Kasus Sembuh",
+                         line = list(color = 'rgb(96, 167, 22)'), 
+                         marker = list(color = 'rgb(96, 167, 22)'),
+                         type = 'scatter', mode = 'lines+markers') 
+fig <- fig %>% add_trace(y = ~akumulasi_meninggal, 
+                         name = "Akumulasi Kasus Meninggal",
+                         line = list(color = 'rgb(167, 1, 1)'), 
+                         marker = list(color = 'rgb(167, 1, 1)'),
+                         type = 'scatter', mode = 'lines+markers')
+fig <- fig %>% layout(title = "Kasus Aktif, Sembuh, dan Meninggal Per-Hari",
+                         xaxis = list(title = "Tanggal"),
+                         yaxis = list (title = "Jumlah"))
+    
+fig
+```
+
+## Bar Plot
+Bar plot atau diagram batang, diagra ini cocok untuk membandingkan nilai data yang cukup banyak. Berfungsi untuk melihat kenaikan atau penurunan data.
+
+**Bar Plot Dasar**
+
+```{r}
+library(plotly)
+#Membuat bar plot
+fig <- plot_ly(
+  x = c("giraffes", "orangutans", "monkeys"),     #Sumbu x
+  y = c(20, 14, 23),                              #Sumbu y
+  name = "SF Zoo",
+  type = "bar"
+)
+fig <- fig %>% layout(title = "Bar Plot",
+                         xaxis = list(title = "X"),
+                         yaxis = list (title = "Y"))
+#Menampilkan Hasil Visualisasi
+fig
+
+```
+**Bar Plot COVID-19 Indonesia **
+
+```{r}
+fig = plot_ly(bulanan, 
+              x=~bulan_ke, 
+              y=~`Kasus Baru`, 
+              type="bar", 
+              name = "Kasus Baru")
+
+fig <- fig %>% layout(
+  title = "Tren Bulanan COVID-19 Nasional",
+  xaxis = list(title = 'Bulan'),
+  yaxis = list(title = 'Jumlah'))
+    
+fig
+
+```
+
+## Pie Plot
+Visualisasi diagram lingkaran fokus untuk menampilkan perbandingan data. Lebih baik digunakan untuk jumlah variabel yang sedikit.
+
+**Pie Plot Dasar**
+
+```{r}
+library(plotly)
+#Menyiapkan Data
+USPersonalExpenditure <- data.frame("Categorie"=rownames(USPersonalExpenditure), USPersonalExpenditure)
+data <- USPersonalExpenditure[,c('Categorie', 'X1960')]
+#Pie plot
+fig <- plot_ly(data, 
+               labels = ~Categorie, 
+               values = ~X1960, 
+               type = 'pie')
+
+fig <- fig %>% layout(
+  title = 'United States Personal Expenditures by Categories in 1960',
+  xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+  yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+
+fig
+
+```
+**Pie Plot COVID-19 DIY**
+```{r}
+#Menyiapkan data
+prov="DAERAH_ISTIMEWA_YOGYAKARTA"
+link <- "https://data.covid19.go.id/public/api/prov_detail_"
+json_t <- ".json"
+url_prov <- paste(link,prov,json_t,sep="")
+url_use <- GET(url_prov)
+data_raw <- content(url_use, as = "parsed", simplifyVector = TRUE)
+    
+gejala<-data_raw$data$kasus$gejala$list_data
+    
+gejala$doc_count<-round(gejala$doc_count, digits=2)
+names(gejala)[names(gejala) == "key"] <- "Gejala"
+
+#Pie plot
+fig <- plot_ly(gejala, 
+               labels = ~Gejala, 
+               values = ~doc_count, 
+               type = 'pie')
+
+fig <- fig %>% layout(
+  title = 'Penyakit Gejala COVID-19 DIY',
+  xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+  yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+
+fig
+
+```
+
+
+### Referensi
+[https://plotly.com](https://plotly.com)
